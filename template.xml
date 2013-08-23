@@ -1,0 +1,22 @@
+<domain type='{domType}'>
+  <name>{name}</name>
+  <uuid></uuid>
+  <memory>{mem}</memory>
+  <currentMemory>{curMem}</currentMemory>
+  <vcpu>{vcpu}</vcpu>
+  <os>
+    <type arch='x86_64' machine='pc'>{typeOs}</type>
+  </os>
+  <devices>
+    <emulator>{emul}</emulator>
+    <disk type='{diskType}' device='{diskDev}'>
+      <driver name='{drvrName}' type='{drvrType}'/>
+      <source file='{source}'/>
+      <target dev='{targetDev}'/>
+    </disk>
+    <interface type='network'>
+      <source network='default'/>
+    </interface>
+    <graphics type='vnc' port='-1'/>
+  </devices>
+</domain>
