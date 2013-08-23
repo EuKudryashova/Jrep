@@ -1,18 +1,16 @@
 import libvirt
 import getopt
 import sys
+import ConfigParser
 
 
 def create(con, usrConfig):
-    defConfig = {'domType': 'qemu', 'mem': '119200', 'curMem': '119200',
-             'typeOs': 'hvm', 'emul': '/usr/bin/qemu-system-x86_64',
-             'diskType': 'file', 'diskDev': 'disk', 'drvrName': 'qemu',
-             'drvrType': 'qcow2', 'targetDev': 'hda', 'vcpu': '1'}
+    prc = ConfigParser.RawConfigParser()
+    prc.read('defConfig.ini')
+    defConfig = prc.defaults()
     defConfig.update(usrConfig)
-    print defConfig
     xmlConfig = open('template.xml').read()
     xmlConfig = xmlConfig.format(**defConfig)
-    print xmlConfig
     con.defineXML(xmlConfig)
 
 
@@ -20,12 +18,11 @@ def delete(dom):
     if dom.isActive():
         dom.destroy()
     dom.undefine()
-   
 
 
 def powerOn(dom):
     dom.create()
-    
+
 
 def powerOff(dom):
     if dom.isActive():
@@ -34,7 +31,7 @@ def powerOff(dom):
         print 'Domain already unactive'
 
 
-def reboot(dom):    
+def reboot(dom):
     if dom.isActive():
         dom.reboot(0)
     else:
@@ -49,13 +46,12 @@ def printHelp():
 def defDomain(con, name=None, domId=None):
     if name != None:
         return con.lookupByName(name)
-    elif domId !=None:
+    elif domId != None:
         return con.lookupById(int(domId))
     else:
         raise ValueError
-        
- 
-              
+
+
 def main(argv):
     actionMap = {'crt': create,
                  'del': delete,
@@ -67,23 +63,22 @@ def main(argv):
                                            'source='])
     if '-h' in args:
         printHelp()
-    usrConfig = dict(args)
-    usrConfig = {k[2:]: usrConfig[k] for k in usrConfig}
-    if usrConfig.get('action') in actionMap:
-        con = libvirt.open("qemu:///system")        
-        if usrConfig['action']=='crt':
-            if 'name' in usrConfig and 'source' in usrConfig:
-                del usrConfig['action']
-                create(con, usrConfig)
-        else:
-            try:
-                dom = defDomain(con, usrConfig.get('name'),
-                                usrConfig.get('id'))
-                actionMap[usrConfig['action']](dom)
-            except ValueError:
-                print 'use keys --name or --id to define a domain'
-    else: printHelp()
-            
+    usrConfig = {k[2:]: v for (k, v) in args}
+    if not usrConfig.get('action') in actionMap:
+        printHelp()
+    con = libvirt.open("qemu:///system")
+    if usrConfig['action'] == 'crt':
+        if 'name' in usrConfig and 'source' in usrConfig:
+            del usrConfig['action']
+            create(con, usrConfig)
+            return
+    try:
+        dom = defDomain(con, usrConfig.get('name'),
+                        usrConfig.get('id'))
+        actionMap[usrConfig['action']](dom)
+    except ValueError:
+        print 'use keys --name or --id to define a domain'
+
 
 if __name__ == '__main__':
     main(sys.argv[1:])
