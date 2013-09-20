@@ -1,17 +1,19 @@
 """
 Module contains allowed methods to manipulate VMs.
 """
-import libvirt
 import logging
 import ConfigParser
 import xml.etree.ElementTree as ET
+import libvirt
 import queries
-import manageBridges
+import workerAMQP
 
-def create(usrConfig, con=None):    #usrconfig
+worker = None
+
+
+def create(**usrConfig):
     """Creates VM of given type"""
-    if not con:
-        con = getConnection()
+    con = getConnection()
     prc = ConfigParser.RawConfigParser()
     prc.read('defConfig.ini')
     defConfig = dict(prc.items('DEFAULTVM'))
@@ -27,50 +29,63 @@ def create(usrConfig, con=None):    #usrconfig
     queries.add_vm(name, os, bridge)
     mac = getMAC(name)
     ip = queries.assignIP(mac, bridge)
-    manageBridges.addDHCPhost(mac, ip)
+    worker.send_mes({'act': 'add_host', 'mac': mac, 'ip': ip})
     res = 'New VM {} was successfully created'.format(name)
     return res
 
 
-def delete(dom):
+def defineDomain(name=None, domId=None, con=None):
+    """Define domain by given name or id."""
+    con = con or getConnection()
+    x = None
+    if name:
+        x = con.lookupByName(name)
+    elif domId:
+        x = con.lookupById(int(domId))
+    if x:
+        queries.get_or_create(x)
+    return x
+
+
+def delete(name, **kwargs):
     """Delete given libvirt domain"""
-    name = dom.name()
+    dom = defineDomain(name)
     if queries.get_vm_state(name) == 1:
         dom.destroy()
     mac = getMAC(name)
     queries.unAssignIP(mac)
     queries.delete_vm(name)
-    manageBridges.delConfHost(mac)
+    worker.send_mes({'act': 'del_host', 'mac': mac})
     res = 'VM {} was destroyed'.format(name)
     dom.undefine()
     return res
 
 
-def powerOn(dom):
+def powerOn(name, **kwargs):
     """PowerOn given libvirt domain"""
-    name = dom.name()
+    dom = defineDomain(name)
     dom.create()
     queries.update_vm_state(name, 1)
     res = 'VM {} powered on'.format(name)
     return res
 
 
-def powerOff(dom):
+def powerOff(name, **kwargs):
     """PowerOff given libvirt domain"""
-    name = dom.name()
+    dom = defineDomain(name)
     if queries.get_vm_state(name) == 1:
         dom.destroy()
-        queries.update_vm_state(name, 5)       
+        queries.update_vm_state(name, 5)
     else:
-        logger = logging.getLogger('manageVM.processing')
+        logger = logging.getLogger('manageVM.compute')
         logger.warning('Attempt to power off unactive domain')
     res = 'VM {} powered off'.format(name)
     return res
 
 
-def reboot(dom):
+def reboot(name, **kwargs):
     """Reboot given libvirt domain"""
-    name = dom.name()
+    dom = defineDomain(name)
     if queries.get_vm_state(name) == 1:
         dom.reboot(0)        
     else:
@@ -80,8 +95,9 @@ def reboot(dom):
     return res
 
 
-def get_vm_state(dom):
+def get_vm_state(name, **kwargs):
     """Load from DB code of state of VM and return state"""
+    dom = defineDomain(name)
     prc = ConfigParser.RawConfigParser()
     prc.read('defConfig.ini')
     states = dict(prc.items('STATESMAP'))
@@ -91,42 +107,24 @@ def get_vm_state(dom):
     return "VM %s state: %s".format(name, state)
 
 
-def get_os_list():
+def get_os_list(**kwargs):
     """Return list of available OS"""
     os_list = queries.get_os_list()
     result = ''
     for os in os_list:
         os = str(os)
-        result += os + ', '
+        result += os + '\n'
     return result
 
 
-def get_vm_list():
+def get_vm_list(**kwargs):
     """Return list of available VMs"""
     list_vm = queries.get_vm_list()
     result = ''
     for vm in list_vm:
         vm = str(vm)
-        result += vm + ', '
+        result += vm + '\n'
     return result
-
-
-def defineNetwork(netConfig, con=None):
-    """Define virtual network for libvirt domains"""
-    con = con or getConnection()
-    xmlConfig = open('net.xml').read()
-    xmlConfig = xmlConfig.format(**netConfig)
-    net = con.networkDefineXML(xmlConfig)
-    net.create()
-
-
-def undefineNetwork(net_name, con=None):
-    """Delete virtual network for libvirt domains"""
-    con = con or getConnection()
-    net = con.networkLookupByName(net_name)
-    if net.isActive():
-        net.destroy()
-    net.undefine()
 
 
 def getConnection():
@@ -135,10 +133,33 @@ def getConnection():
     return con
 
 
-def getMAC(vmname, con=None):
+def getMAC(name, con=None, **kwargs):
     """Load from XML description of domain MAC-address"""
     con = con or getConnection()
-    descr = ET.fromstring(con.lookupByName(vmname).XMLDesc(0))
+    descr = ET.fromstring(con.lookupByName(name).XMLDesc(0))
     for mac in descr.iter('mac'):
         mac_addr = mac.attrib['address']
     return mac_addr
+
+
+def set_worker():
+    """Sets worker to deal with queries to compute manager"""
+    global worker
+    worker = worker or VMWorker()
+    worker.run()
+
+
+class VMWorker(workerAMQP.Worker):
+
+    def __init__(self):
+        self.logger = logging.getLogger('manageVM.compute')
+        super(VMWorker, self).__init__()
+
+    def run(self):
+        self.define_queue('vm_s')
+        self.define_queue('s_vm')
+        self.define_queue('vm_net')
+        self.define_queue('net_vm')
+        self.do_basic_consume(self.process_mes, queue='s_vm')
+        self.do_basic_consume(self.receive_res, queue='net_vm')
+        self.start_consuming()

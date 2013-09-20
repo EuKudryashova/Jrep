@@ -26,8 +26,11 @@ def get_or_create(dom, session=None):
     for src in descr.iter('source'):
         if 'file' in src.attrib.keys():
             source = src.attrib['file']
+        if 'network' in src.attrib.keys():
+            br_name = src.attrib['network']
     os_name = session.query(OS.name).filter(OS.path == source).scalar()
-    add_vm(dom.name(), os_name)
+    print dom.name() + '   ' + os_name + '   ' + br_name
+    add_vm(dom.name(), os_name, br_name)
 
 
 def add_vm(name, os, br_name, state=5, session=None):
@@ -106,7 +109,7 @@ def unAssignIP(mac, session=None):
     session = session or getSession()
     session.query(Address).filter(Address.mac == mac).update({'mac': 'None'})
     session.commit()
-    pass
+
 
 def addBridge(br_name, session=None):
     session = session or getSession()
@@ -127,6 +130,12 @@ def getBridgeIDbyName(br_name, session=None):
     session = session or getSession()
     br_id = session.query(Bridge.id).filter(Bridge.name == br_name).scalar()
     return br_id
+
+
+def getBridgeNameByID(br_id, session=None):
+    session = session or getSession()
+    br_name = session.query(Bridge.name).filter(Bridge.id == br_id).scalar()
+    return br_name
 
 
 def checkIfBridgeFree(br_id, session=None):

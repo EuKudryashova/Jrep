@@ -1,1050 +1,498 @@
-2013-08-28 16:44:22,218 - manageVM.processing -
+2013-09-20 12:30:42,879 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 12:30:42,880 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 12:30:42,881 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 12:30:42,954 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 12:30:42,955 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 12:30:42,956 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 12:30:43,028 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 12:30:43,029 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 12:30:43,030 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 12:30:47,888 - manageVM.compute -
                             [WARNING] - Attempt to power off unactive domain
-2013-08-28 16:45:06,967 - manageVM.processing -
+2013-09-20 12:30:47,889 - manageVM.compute -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:30:47,902 - manageVM.client -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:30:54,010 - manageVM.compute -
                             [WARNING] - Attempt to power off unactive domain
-2013-08-28 16:45:06,968 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-08-28 16:45:11,068 - manageVM.processing -
+2013-09-20 12:30:54,012 - manageVM.compute -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:30:54,265 - manageVM.client -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:31:06,518 - manageVM.compute -
+                            [INFO] - VM newvm2 powered on
+2013-09-20 12:31:06,770 - manageVM.client -
+                            [INFO] - VM newvm2 powered on
+2013-09-20 12:31:11,553 - manageVM.compute -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:31:11,806 - manageVM.client -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:31:13,878 - manageVM.server -
+                            [INFO] - stop consuming, close connection to RabbitMQ
+2013-09-20 12:31:13,878 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-20 12:32:01,812 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 12:32:01,813 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 12:32:01,814 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 12:32:01,886 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 12:32:01,887 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 12:32:01,888 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 12:32:01,960 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 12:32:01,961 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 12:32:01,962 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 12:32:35,702 - manageVM.compute -
                             [WARNING] - Attempt to power off unactive domain
-2013-08-28 16:45:11,068 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-08-28 16:45:18,366 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 16:47:29,143 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 16:51:09,858 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:02:56,532 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:03:36,044 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:04:57,701 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:05:09,345 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:06:04,397 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:10:32,515 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:22:11,049 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:25:33,010 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:52:40,411 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:52:40,413 - manageVM.client -
-                            [ERROR] - operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
-2013-08-28 17:52:50,765 - manageVM.processing -
+2013-09-20 12:32:35,703 - manageVM.compute -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:32:35,707 - manageVM.client -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:32:40,878 - manageVM.compute -
                             [WARNING] - Attempt to power off unactive domain
-2013-08-28 17:52:50,765 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-08-28 17:52:57,226 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-08-28 17:53:01,654 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-08-28 17:53:03,550 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-08-28 17:54:36,393 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
-2013-08-28 17:54:36,394 - manageVM.client -
-                            [ERROR] - Requested operation is not valid: domain is already running
-2013-08-28 17:55:00,688 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-08-28 17:55:00,690 - manageVM.client -
-                            [INFO] - VM TESTVM2 powered off
-2013-08-28 18:06:01,886 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Domain not found: no domain with matching name 'TEST'
-2013-08-28 18:06:01,887 - manageVM.client -
+2013-09-20 12:32:40,879 - manageVM.compute -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:32:41,134 - manageVM.client -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:32:42,169 - manageVM.compute -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-20 12:32:42,170 - manageVM.compute -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:32:42,423 - manageVM.client -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:32:44,461 - manageVM.compute -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-20 12:32:44,462 - manageVM.compute -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:32:44,716 - manageVM.client -
+                            [INFO] - VM newvm2 powered off
+2013-09-20 12:33:40,392 - manageVM.compute -
+                            [INFO] - New VM VM3 was successfully created
+2013-09-20 12:33:40,647 - manageVM.client -
+                            [INFO] - New VM VM3 was successfully created
+2013-09-20 12:33:43,388 - manageVM.compute -
+                            [INFO] - New VM VM2 was successfully created
+2013-09-20 12:33:43,392 - manageVM.client -
+                            [INFO] - New VM VM2 was successfully created
+2013-09-20 13:00:52,534 - manageVM.server -
+                            [ERROR] - Close connection to RabbitMQ
+2013-09-20 13:00:52,535 - manageVM.server -
+                            [INFO] - stop consuming, close connection to RabbitMQ
+2013-09-20 13:00:52,535 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-20 13:01:08,112 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 13:01:08,113 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 13:01:08,114 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 13:01:08,186 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 13:01:08,187 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 13:01:08,188 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 13:01:08,263 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 13:01:08,263 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 13:01:08,264 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 13:02:15,778 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 13:02:15,779 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 13:02:15,780 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 13:02:15,852 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 13:02:15,852 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 13:02:15,854 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 13:02:15,926 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 13:02:15,927 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 13:02:15,928 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 13:02:46,234 - manageVM.server -
+                            [INFO] - stop consuming, close connection to RabbitMQ
+2013-09-20 13:02:46,234 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-20 13:02:48,120 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 13:02:48,121 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 13:02:48,123 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 13:02:48,195 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 13:02:48,196 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 13:02:48,197 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 13:02:48,270 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 13:02:48,270 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 13:02:48,271 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 13:06:36,801 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 13:06:36,801 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 13:06:36,803 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 13:06:36,874 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 13:06:36,875 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 13:06:36,876 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 13:06:36,951 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 13:06:36,952 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 13:06:36,953 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 13:06:44,911 - manageVM.compute -
+                            [INFO] - VM VM3 was destroyed
+2013-09-20 13:06:44,914 - manageVM.client -
+                            [INFO] - VM VM3 was destroyed
+2013-09-20 13:06:51,793 - manageVM.compute -
+                            [INFO] - VM VM2 was destroyed
+2013-09-20 13:06:52,047 - manageVM.client -
+                            [INFO] - VM VM2 was destroyed
+2013-09-20 13:16:01,598 - manageVM.server -
+                            [INFO] - stop consuming, close connection to RabbitMQ
+2013-09-20 13:16:01,598 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-20 14:38:19,231 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 14:38:19,232 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 14:38:19,233 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 14:38:19,305 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 14:38:19,306 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 14:38:19,307 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 14:38:19,378 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 14:38:19,379 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 14:38:19,380 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 14:38:21,858 - manageVM.compute -
+                            [ERROR] - Domain not found: no domain with matching name 'VM2'
+2013-09-20 14:38:21,863 - manageVM.client -
                             [INFO] - Fault
-2013-08-28 18:06:01,888 - manageVM.client -
-                            [ERROR] - Domain not found: no domain with matching name 'TEST'
-2013-08-28 18:06:27,346 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-08-28 18:06:27,348 - manageVM.client -
-                            [INFO] - VM TESTVM2 powered on
-2013-08-28 18:06:37,986 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-08-28 18:06:37,988 - manageVM.client -
-                            [INFO] - VM TESTVM2 was destroyed
-2013-08-28 18:06:44,470 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-08-28 18:06:44,472 - manageVM.client -
-                            [INFO] - New VM TESTVM2 was successfully created
-2013-09-03 15:42:15,799 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-03 15:42:15,801 - manageVM.client -
-                            [INFO] - New VM vm was successfully created
-2013-09-03 16:05:45,958 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'vm121' already exists with uuid 81a5e583-c098-0b12-c5e8-5d730c9c9e78
-2013-09-03 16:05:45,959 - manageVM.client -
+2013-09-20 14:38:21,863 - manageVM.client -
+                            [ERROR] - Domain not found: no domain with matching name 'VM2'
+2013-09-20 14:39:58,683 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 14:39:58,684 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 14:39:58,685 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 14:39:58,757 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 14:39:58,758 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 14:39:58,759 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 14:39:58,830 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 14:39:58,831 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 14:39:58,832 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 14:40:01,113 - manageVM.server -
+                            [ERROR] - Close connection to RabbitMQ
+2013-09-20 14:40:01,113 - manageVM.server -
+                            [INFO] - stop consuming, close connection to RabbitMQ
+2013-09-20 14:40:01,114 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-20 14:41:25,442 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 14:41:25,443 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 14:41:25,445 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 14:41:25,519 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 14:41:25,519 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 14:41:25,520 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 14:41:25,593 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 14:41:25,594 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 14:41:25,595 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 14:41:48,601 - manageVM.server -
+                            [INFO] - stop consuming, close connection to RabbitMQ
+2013-09-20 14:41:48,601 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-20 14:43:55,875 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 14:43:55,876 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 14:43:55,876 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 14:43:55,949 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 14:43:55,950 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 14:43:55,951 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 14:43:56,023 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 14:43:56,024 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 14:43:56,025 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 14:44:04,628 - manageVM.compute -
+                            [ERROR] - operation failed: domain 'VM2' already exists with uuid 727f0561-a033-901f-d13b-7f5fcac890e8
+2013-09-20 14:44:04,632 - manageVM.client -
                             [INFO] - Fault
-2013-09-03 16:05:45,959 - manageVM.client -
-                            [ERROR] - operation failed: domain 'vm121' already exists with uuid 81a5e583-c098-0b12-c5e8-5d730c9c9e78
-2013-09-03 16:06:00,392 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-03 16:06:00,394 - manageVM.client -
-                            [INFO] - New VM vm11 was successfully created
-2013-09-03 16:33:05,204 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:37:56,621 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:37:56,623 - manageVM.client -
-                            [INFO] - VM 'TESTVM', state: 'on', os: 'cirros')
-VM 'TESTVM1', state: '', os: 'cirros')
-VM 'VMnewtest', state: 'off', os: 'cirros')
-VM 'vm', state: 'off', os: 'cirros')
-VM 'vm11', state: 'off', os: 'cirros')
-
-2013-09-03 16:39:47,156 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:39:51,440 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:39:51,442 - manageVM.client -
-                            [INFO] - VM 'TESTVM', state: 'on', os: 'cirros'
-VM 'TESTVM1', state: '', os: 'cirros'
-VM 'VMnewtest', state: 'off', os: 'cirros'
-VM 'vm', state: 'off', os: 'cirros'
-VM 'vm11', state: 'off', os: 'cirros'
-
-2013-09-03 16:41:18,436 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:41:23,877 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:41:23,878 - manageVM.client -
-                            [INFO] - VM 'TESTVM', state: 'on', os: 'cirros'
-VM 'TESTVM1', state: '', os: 'cirros'
-VM 'VMnewtest', state: 'off', os: 'cirros'
-VM 'vm', state: 'off', os: 'cirros'
-VM 'vm11', state: 'off', os: 'cirros'
-
-2013-09-03 16:41:27,679 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-03 16:41:27,680 - manageVM.client -
-                            [INFO] - <OS 'cirros', id 1')>
-
-2013-09-03 16:42:02,524 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:42:05,738 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-03 16:42:05,740 - manageVM.client -
-                            [INFO] - <OS 'cirros', id 1')>
-
-2013-09-03 16:42:09,565 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:42:09,568 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'off', os: 'cirros'>
-
-2013-09-03 16:42:23,012 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:42:27,103 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:42:27,106 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'off', os: 'cirros'>
-
-2013-09-03 16:42:30,702 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-03 16:42:30,703 - manageVM.client -
-                            [INFO] - <OS 'cirros', id 1'>
-
-2013-09-03 16:44:13,300 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:44:58,900 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:45:02,366 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-03 16:45:02,367 - manageVM.client -
-                            [INFO] - VM vm11 was destroyed
-2013-09-03 16:45:07,309 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:45:07,311 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-
-2013-09-03 16:45:15,393 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-03 16:45:15,394 - manageVM.client -
-                            [INFO] - New VM vm11 was successfully created
-2013-09-03 16:45:18,344 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:45:18,345 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'off', os: 'cirros'>
-
-2013-09-03 16:45:43,490 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-03 16:45:43,491 - manageVM.client -
-                            [INFO] - VM vm11 powered on
-2013-09-03 16:45:48,198 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:45:48,199 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'off', os: 'cirros'>
-
-2013-09-03 16:46:53,092 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:46:57,360 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
-2013-09-03 16:46:57,362 - manageVM.client -
+2013-09-20 14:44:04,632 - manageVM.client -
+                            [ERROR] - operation failed: domain 'VM2' already exists with uuid 727f0561-a033-901f-d13b-7f5fcac890e8
+2013-09-20 14:46:26,240 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 14:46:26,241 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 14:46:26,242 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 14:46:26,317 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 14:46:26,318 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 14:46:26,319 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 14:46:26,391 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 14:46:26,392 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 14:46:26,393 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 14:49:04,547 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 14:49:04,548 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 14:49:04,550 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 14:49:04,622 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 14:49:04,623 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 14:49:04,624 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 14:49:04,696 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 14:49:04,697 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 14:49:04,698 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 14:49:30,686 - manageVM.compute -
+                            [INFO] - VM VM2 powered on
+2013-09-20 14:49:30,692 - manageVM.client -
+                            [INFO] - VM VM2 powered on
+2013-09-20 14:49:39,062 - manageVM.compute -
+                            [INFO] - VM VM2 powered off
+2013-09-20 14:49:39,065 - manageVM.client -
+                            [INFO] - VM VM2 powered off
+2013-09-20 14:50:00,651 - manageVM.compute -
+                            [ERROR] - Domain not found: no domain with matching name 'VM4'
+2013-09-20 14:50:00,654 - manageVM.client -
                             [INFO] - Fault
-2013-09-03 16:46:57,362 - manageVM.client -
-                            [ERROR] - Requested operation is not valid: domain is already running
-2013-09-03 16:47:12,957 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-03 16:47:12,957 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:47:12,959 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-03 16:47:19,163 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
-2013-09-03 16:47:19,165 - manageVM.client -
+2013-09-20 14:50:00,655 - manageVM.client -
+                            [ERROR] - Domain not found: no domain with matching name 'VM4'
+2013-09-20 14:57:30,023 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 14:57:30,024 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 14:57:30,025 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 14:57:30,098 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 14:57:30,099 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 14:57:30,099 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 14:57:30,172 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 14:57:30,173 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 14:57:30,174 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 14:59:49,843 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 14:59:49,844 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 14:59:49,845 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 14:59:49,919 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 14:59:49,920 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 14:59:49,920 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 14:59:49,991 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 14:59:49,992 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 14:59:49,992 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 14:59:59,015 - manageVM.compute -
+                            [ERROR] - operation failed: domain 'VM4' already exists with uuid 7d8810d0-0628-b913-1002-62b5c0188ba7
+2013-09-20 14:59:59,027 - manageVM.client -
                             [INFO] - Fault
-2013-09-03 16:47:19,166 - manageVM.client -
-                            [ERROR] - Requested operation is not valid: domain is already running
-2013-09-03 16:47:36,506 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-03 16:47:36,507 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:47:36,509 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-03 16:48:42,052 - manageVM -
+2013-09-20 14:59:59,028 - manageVM.client -
+                            [ERROR] - operation failed: domain 'VM4' already exists with uuid 7d8810d0-0628-b913-1002-62b5c0188ba7
+2013-09-20 15:01:48,755 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 15:01:48,756 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 15:01:48,757 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 15:01:48,831 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 15:01:48,832 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 15:01:48,832 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 15:01:48,905 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 15:01:48,906 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 15:01:48,907 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 15:04:43,339 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 15:04:43,339 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 15:04:43,341 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 15:04:43,415 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 15:04:43,415 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 15:04:43,417 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 15:04:43,488 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 15:04:43,489 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 15:04:43,491 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 15:07:42,859 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 15:07:42,860 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 15:07:42,861 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 15:07:42,934 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 15:07:42,935 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 15:07:42,936 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 15:07:43,009 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 15:07:43,010 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 15:07:43,011 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 15:16:48,023 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 15:16:48,024 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 15:16:48,025 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 15:16:48,098 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 15:16:48,098 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 15:16:48,099 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 15:16:48,172 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 15:16:48,173 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 15:16:48,174 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 15:17:23,104 - manageVM.server -
+                            [INFO] - stop consuming, close connection to RabbitMQ
+2013-09-20 15:17:23,104 - manageVM -
                             [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:48:46,638 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
-2013-09-03 16:48:46,639 - manageVM.client -
+2013-09-20 15:17:25,220 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 15:17:25,220 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 15:17:25,221 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 15:17:25,295 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 15:17:25,296 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 15:17:25,298 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 15:17:25,370 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 15:17:25,371 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 15:17:25,372 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 15:22:34,537 - manageVM.server -
+                            [INFO] - stop consuming, close connection to RabbitMQ
+2013-09-20 15:22:34,537 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-20 15:22:36,156 - manageVM.server -
+                            [INFO] - will consume queue: vm_s
+2013-09-20 15:22:36,157 - manageVM.server -
+                            [INFO] - will consume queue: net_s
+2013-09-20 15:22:36,157 - manageVM.server -
+                            [INFO] - start consuming
+2013-09-20 15:22:36,230 - manageVM.compute -
+                            [INFO] - will consume queue: s_vm
+2013-09-20 15:22:36,231 - manageVM.compute -
+                            [INFO] - will consume queue: net_vm
+2013-09-20 15:22:36,232 - manageVM.compute -
+                            [INFO] - start consuming
+2013-09-20 15:22:36,304 - manageVM.net_manager -
+                            [INFO] - will consume queue: s_net
+2013-09-20 15:22:36,305 - manageVM.net_manager -
+                            [INFO] - will consume queue: vm_net
+2013-09-20 15:22:36,307 - manageVM.net_manager -
+                            [INFO] - start consuming
+2013-09-20 15:22:41,590 - manageVM.compute -
+                            [ERROR] - Domain not found: no domain with matching name 'VM4'
+2013-09-20 15:22:41,844 - manageVM.client -
                             [INFO] - Fault
-2013-09-03 16:48:46,639 - manageVM.client -
-                            [ERROR] - Requested operation is not valid: domain is already running
-2013-09-03 16:48:54,743 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:48:54,745 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-03 16:49:10,438 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:49:10,441 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'off', os: 'cirros'>
-
-2013-09-03 16:49:15,053 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-03 16:49:15,054 - manageVM.client -
-                            [INFO] - VM vm11 powered on
-2013-09-03 16:49:18,051 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:49:18,053 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'on', os: 'cirros'>
-
-2013-09-03 16:49:25,880 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-03 16:49:25,880 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:49:25,881 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-03 16:49:28,239 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:49:28,240 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'on', os: 'cirros'>
-
-2013-09-03 16:49:38,239 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-03 16:49:38,239 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:49:38,241 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-03 16:49:41,145 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:49:41,147 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'on', os: 'cirros'>
-
-2013-09-03 16:49:59,988 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-03 16:50:06,670 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:50:06,672 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-03 16:50:10,200 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:50:10,202 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'off', os: 'cirros'>
-
-2013-09-03 16:50:16,179 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-03 16:50:16,180 - manageVM.client -
-                            [INFO] - VM vm11 powered on
-2013-09-03 16:50:17,734 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:50:17,736 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'on', os: 'cirros'>
-
-2013-09-03 16:50:21,263 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:50:21,265 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-03 16:50:24,688 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-03 16:50:24,689 - manageVM.client -
-                            [INFO] - VM vm11 powered on
-2013-09-03 16:50:27,537 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:50:27,538 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'on', os: 'cirros'>
-
-2013-09-03 16:50:38,356 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:50:38,357 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-03 16:50:40,073 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:50:40,074 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'off', os: 'cirros'>
-
-2013-09-03 16:52:16,329 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-03 16:52:16,331 - manageVM.client -
-                            [INFO] - VM vm121 powered on
-2013-09-03 16:52:17,994 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-03 16:52:17,995 - manageVM.client -
-                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
-<VM 'TESTVM1', state: '', os: 'cirros'>
-<VM 'VMnewtest', state: 'off', os: 'cirros'>
-<VM 'vm', state: 'off', os: 'cirros'>
-<VM 'vm11', state: 'off', os: 'cirros'>
-<VM 'vm121', state: 'on', os: 'cirros'>
-
-2013-09-03 16:52:23,953 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-03 16:52:23,953 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:52:23,955 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-03 16:52:39,381 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-03 16:52:39,382 - manageVM.client -
-                            [INFO] - VM vm121 powered off
-2013-09-04 12:41:26,770 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 12:55:33,394 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'vm11' already exists with uuid 1d119440-c816-524d-14aa-03e2feeb0a92
-2013-09-04 12:55:33,395 - manageVM.client -
-                            [INFO] - Fault
-2013-09-04 12:55:33,395 - manageVM.client -
-                            [ERROR] - operation failed: domain 'vm11' already exists with uuid 1d119440-c816-524d-14aa-03e2feeb0a92
-2013-09-04 12:56:57,722 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 12:58:44,842 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 13:02:04,218 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 13:02:26,130 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 13:06:09,106 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 13:06:49,650 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 13:07:17,995 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 13:13:59,826 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 13:14:48,018 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 13:27:42,554 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 14:09:46,894 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 14:09:46,895 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 14:09:46,896 - manageVM.client -
-                            [INFO] - VM TESTVM powered off
-2013-09-04 14:09:59,860 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-04 14:09:59,861 - manageVM.client -
-                            [INFO] - VM TESTVM powered on
-2013-09-04 14:21:55,483 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 14:23:39,115 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 14:23:49,983 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'vm11' already exists with uuid 1d119440-c816-524d-14aa-03e2feeb0a92
-2013-09-04 14:23:49,984 - manageVM.client -
-                            [INFO] - Fault
-2013-09-04 14:23:49,984 - manageVM.client -
-                            [ERROR] - operation failed: domain 'vm11' already exists with uuid 1d119440-c816-524d-14aa-03e2feeb0a92
-2013-09-04 14:24:13,961 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-04 14:24:13,962 - manageVM.client -
-                            [INFO] - VM vm11 powered on
-2013-09-04 14:24:28,209 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
-2013-09-04 14:24:28,211 - manageVM.client -
-                            [INFO] - Fault
-2013-09-04 14:24:28,212 - manageVM.client -
-                            [ERROR] - Requested operation is not valid: domain is already running
-2013-09-04 14:26:13,595 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 14:26:18,995 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
-2013-09-04 14:26:18,997 - manageVM.client -
-                            [INFO] - Fault
-2013-09-04 14:26:18,997 - manageVM.client -
-                            [ERROR] - Requested operation is not valid: domain is already running
-2013-09-04 14:26:24,585 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 14:26:24,586 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 14:26:24,588 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-04 14:27:07,951 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-04 14:27:07,952 - manageVM.client -
-                            [INFO] - <OS 'cirros', id 1>
-
-2013-09-04 14:30:12,520 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM' already exists with uuid 7f5bed79-1eab-10b1-89fa-7252cb6f0b23
-2013-09-04 14:30:12,521 - manageVM.client -
-                            [INFO] - Fault
-2013-09-04 14:30:12,521 - manageVM.client -
-                            [ERROR] - operation failed: domain 'TESTVM' already exists with uuid 7f5bed79-1eab-10b1-89fa-7252cb6f0b23
-2013-09-04 14:30:23,948 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
-2013-09-04 14:30:23,950 - manageVM.client -
-                            [INFO] - Fault
-2013-09-04 14:30:23,950 - manageVM.client -
-                            [ERROR] - Requested operation is not valid: domain is already running
-2013-09-04 14:30:31,016 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 14:30:31,016 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 14:30:31,018 - manageVM.client -
-                            [INFO] - VM TESTVM powered off
-2013-09-04 14:30:36,712 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
-2013-09-04 14:30:36,714 - manageVM.client -
-                            [INFO] - Fault
-2013-09-04 14:30:36,714 - manageVM.client -
-                            [ERROR] - Requested operation is not valid: domain is already running
-2013-09-04 14:30:53,225 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 14:30:53,226 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 14:30:53,227 - manageVM.client -
-                            [INFO] - VM TESTVM powered off
-2013-09-04 14:31:25,128 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-04 14:31:25,129 - manageVM.client -
-                            [INFO] - VM TESTVM powered on
-2013-09-04 14:31:34,629 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 14:31:34,630 - manageVM.client -
-                            [INFO] - VM TESTVM powered off
-2013-09-04 14:31:59,838 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-04 14:31:59,839 - manageVM.client -
-                            [INFO] - VM vm11 powered on
-2013-09-04 14:32:13,547 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 14:32:13,549 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-04 15:02:56,678 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-04 15:02:56,679 - manageVM.client -
-                            [INFO] - <OS 'cirros', id 1>
-
-2013-09-04 15:03:31,843 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 15:10:36,487 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 15:10:36,488 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 15:10:36,490 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-04 15:10:47,800 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-04 15:10:47,801 - manageVM.client -
-                            [INFO] - VM vm11 powered on
-2013-09-04 15:10:51,900 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-04 15:10:51,901 - manageVM.client -
-                            [INFO] - <OS 'cirros', id 1>
-
-2013-09-04 15:10:57,031 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-04 15:10:57,032 - manageVM.client -
-                            [INFO] - <VM 'vm11', state: '1', os: 'cirros'>
-<VM 'TESTVM', state: '5', os: 'cirros'>
-
-2013-09-04 15:11:10,958 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 15:11:10,959 - manageVM.client -
-                            [INFO] - VM vm11 powered off
-2013-09-04 15:12:13,356 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 15:12:17,229 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 15:16:55,757 - manageVM.server -
-                            [INFO] - Operation get_vm_state from host 127.0.0.1 completed.
-2013-09-04 15:16:55,759 - manageVM.client -
-                            [INFO] - 5
-2013-09-04 15:21:37,829 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 15:22:04,629 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 15:22:07,424 - manageVM.server -
-                            [INFO] - Operation get_vm_state from host 127.0.0.1 completed.
-2013-09-04 15:22:07,426 - manageVM.client -
-                            [INFO] - SHUTOFF
-2013-09-04 15:22:21,911 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-04 15:22:21,913 - manageVM.client -
-                            [INFO] - <VM 'vm11', state: '5', os: 'cirros'>
-<VM 'TESTVM', state: '5', os: 'cirros'>
-
-2013-09-04 15:24:32,077 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 15:24:34,653 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-04 15:24:34,655 - manageVM.client -
-                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
-
-2013-09-04 15:25:13,340 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-04 15:25:13,341 - manageVM.client -
-                            [INFO] - VM TESTVM1 powered on
-2013-09-04 15:25:23,300 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 15:25:23,301 - manageVM.client -
-                            [INFO] - VM TESTVM1 powered off
-2013-09-04 15:25:26,735 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 15:25:26,735 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 15:25:26,737 - manageVM.client -
-                            [INFO] - VM TESTVM2 powered off
-2013-09-04 15:26:41,535 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-04 15:26:41,537 - manageVM.client -
-                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM1', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM2', state: 'SHUTOFF', os: 'cirros'>
-
-2013-09-04 15:27:02,933 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 15:27:02,933 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 15:27:02,935 - manageVM.client -
-                            [INFO] - VM VMnewtest powered off
-2013-09-04 15:27:05,766 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-04 15:27:05,767 - manageVM.client -
-                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM1', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM2', state: 'SHUTOFF', os: 'cirros'>
-<VM 'VMnewtest', state: 'SHUTOFF', os: 'cirros'>
-
-2013-09-04 15:27:12,474 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 15:27:12,474 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 15:27:12,476 - manageVM.client -
-                            [INFO] - VM vm powered off
-2013-09-04 15:27:39,382 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 15:27:39,382 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 15:27:39,384 - manageVM.client -
-                            [INFO] - VM vm121 powered off
-2013-09-04 15:27:41,526 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-04 15:27:41,526 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-04 15:27:41,528 - manageVM.client -
-                            [INFO] - VM vm powered off
-2013-09-04 15:27:56,157 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 15:28:00,099 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-04 15:28:00,101 - manageVM.client -
-                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM1', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM2', state: 'SHUTOFF', os: 'cirros'>
-<VM 'VMnewtest', state: 'SHUTOFF', os: 'cirros'>
-<VM 'vm', state: 'SHUTOFF', os: 'cirros'>
-<VM 'vm121', state: 'SHUTOFF', os: 'cirros'>
-
-2013-09-04 15:34:05,429 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-04 18:28:02,065 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-04 18:28:57,356 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'Final' already exists with uuid 8584dacb-f848-c8ef-56df-6075fc0512ed
-2013-09-04 18:28:57,358 - manageVM.client -
-                            [INFO] - Fault
-2013-09-04 18:28:57,358 - manageVM.client -
-                            [ERROR] - operation failed: domain 'Final' already exists with uuid 8584dacb-f848-c8ef-56df-6075fc0512ed
-2013-09-04 18:29:18,847 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'Final' already exists with uuid 8584dacb-f848-c8ef-56df-6075fc0512ed
-2013-09-04 18:29:18,848 - manageVM.client -
-                            [INFO] - Fault
-2013-09-04 18:29:18,848 - manageVM.client -
-                            [ERROR] - operation failed: domain 'Final' already exists with uuid 8584dacb-f848-c8ef-56df-6075fc0512ed
-2013-09-05 12:13:40,457 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-05 12:13:40,459 - manageVM.client -
-                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM1', state: 'SHUTOFF', os: 'cirros'>
-<VM 'TESTVM2', state: 'SHUTOFF', os: 'cirros'>
-<VM 'VMnewtest', state: 'SHUTOFF', os: 'cirros'>
-<VM 'vm', state: 'SHUTOFF', os: 'cirros'>
-<VM 'vm121', state: 'SHUTOFF', os: 'cirros'>
-<VM 'Final', state: 'SHUTOFF', os: 'cirros'>
-
-2013-09-05 12:17:12,925 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-05 12:17:12,926 - manageVM.client -
-                            [INFO] - <OS 'cirros', id 1>
-
-2013-09-05 12:21:04,883 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-05 12:21:07,920 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-05 12:21:07,921 - manageVM.client -
-                            [INFO] - {'os': 'cirros', 'id': 1}
-
-2013-09-05 12:27:11,474 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-05 12:27:11,477 - manageVM.client -
-                            [INFO] - {'os': 'cirros', 'id': 1}
-
-2013-09-05 12:53:32,162 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-05 12:53:32,163 - manageVM.client -
-                            [INFO] - {'os': 'cirros', 'id': 1}
-
-2013-09-05 15:48:08,805 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-05 15:48:08,806 - manageVM.client -
-                            [INFO] - {'os': 'cirros', 'id': 1}
-
-2013-09-05 15:49:20,691 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-05 15:49:20,692 - manageVM.client -
-                            [INFO] - New VM final1.0 was successfully created
-2013-09-05 15:49:23,368 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-05 15:49:23,370 - manageVM.client -
-                            [INFO] - {'vm': 'vm11', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM1', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM2', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'VMnewtest', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'vm', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'vm121', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'Final', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'final1.0', 'state': 'SHUTOFF', 'os': 'cirros'}
-
-2013-09-05 15:49:30,219 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-05 15:49:30,220 - manageVM.client -
-                            [INFO] - {'os': 'cirros', 'id': 1}
-
-2013-09-05 15:51:36,103 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-05 15:51:36,103 - manageVM.client -
-                            [INFO] - {'os': 'cirros', 'id': 1}
-
-2013-09-05 15:54:04,022 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-05 15:54:04,023 - manageVM.client -
-                            [INFO] - {'os': 'cirros', 'id': 1}
-
-2013-09-05 17:04:55,741 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'final1.0' already exists with uuid f9d5ef6e-ede6-9f21-4d50-6e7d02cef6d7
-2013-09-05 17:04:55,742 - manageVM.client -
-                            [INFO] - Fault
-2013-09-05 17:43:10,350 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-05 17:43:10,351 - manageVM.client -
-                            [INFO] - {'os': 'cirros', 'id': 1}
-
-2013-09-05 17:43:13,747 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-05 17:43:13,749 - manageVM.client -
-                            [INFO] - {'vm': 'vm11', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM1', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM2', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'VMnewtest', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'vm', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'vm121', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'Final', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'final1.0', 'state': 'SHUTOFF', 'os': 'cirros'}
-
-2013-09-05 18:01:40,975 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-05 18:01:40,976 - manageVM.client -
-                            [INFO] - {'vm': 'vm11', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM1', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM2', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'VMnewtest', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'vm', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'vm121', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'Final', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'final1.0', 'state': 'SHUTOFF', 'os': 'cirros'}
-
-2013-09-05 18:05:55,856 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-05 18:05:55,857 - manageVM.client -
-                            [INFO] - {'vm': 'vm11', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM1', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'TESTVM2', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'VMnewtest', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'vm', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'vm121', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'Final', 'state': 'SHUTOFF', 'os': 'cirros'}
-{'vm': 'final1.0', 'state': 'SHUTOFF', 'os': 'cirros'}
-
-2013-09-06 12:11:08,381 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-06 12:11:08,383 - manageVM.client -
-                            [INFO] - VM vm121 powered on
-2013-09-06 12:11:49,082 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:17:31,779 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:17:31,779 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:17:57,016 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:17:57,016 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:18:09,486 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:18:09,486 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:18:29,332 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:18:29,333 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:18:56,561 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:18:56,562 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:19:21,015 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:19:21,016 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:20:24,453 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:20:24,454 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:20:33,836 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:20:33,836 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:34:52,574 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-06 12:35:58,277 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-06 12:35:58,279 - manageVM.client -
-                            [INFO] - -vm vm11 -s SHUTOFF -o + cirros, -vm TESTVM -s SHUTOFF -o + cirros, -vm TESTVM1 -s SHUTOFF -o + cirros, -vm TESTVM2 -s SHUTOFF -o + cirros, -vm VMnewtest -s SHUTOFF -o + cirros, -vm vm -s SHUTOFF -o + cirros, -vm vm121 -s SHUTOFF -o + cirros, -vm Final -s SHUTOFF -o + cirros, -vm final1.0 -s SHUTOFF -o + cirros, 
-2013-09-06 12:36:10,119 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-06 12:36:10,121 - manageVM.client -
-                            [INFO] - -vm vm11 -s SHUTOFF -o + cirros, -vm TESTVM -s SHUTOFF -o + cirros, -vm TESTVM1 -s SHUTOFF -o + cirros, -vm TESTVM2 -s SHUTOFF -o + cirros, -vm VMnewtest -s SHUTOFF -o + cirros, -vm vm -s SHUTOFF -o + cirros, -vm vm121 -s SHUTOFF -o + cirros, -vm Final -s SHUTOFF -o + cirros, -vm final1.0 -s SHUTOFF -o + cirros, 
-2013-09-06 12:36:19,939 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-06 12:36:19,941 - manageVM.client -
-                            [INFO] - -vm vm11 -s SHUTOFF -o + cirros, -vm TESTVM -s SHUTOFF -o + cirros, -vm TESTVM1 -s SHUTOFF -o + cirros, -vm TESTVM2 -s SHUTOFF -o + cirros, -vm VMnewtest -s SHUTOFF -o + cirros, -vm vm -s SHUTOFF -o + cirros, -vm vm121 -s SHUTOFF -o + cirros, -vm Final -s SHUTOFF -o + cirros, -vm final1.0 -s SHUTOFF -o + cirros, 
-2013-09-06 12:36:49,258 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-06 12:36:49,260 - manageVM.client -
-                            [INFO] - -vm vm11 -s SHUTOFF -o + cirros, -vm TESTVM -s SHUTOFF -o + cirros, -vm TESTVM1 -s SHUTOFF -o + cirros, -vm TESTVM2 -s SHUTOFF -o + cirros, -vm VMnewtest -s SHUTOFF -o + cirros, -vm vm -s SHUTOFF -o + cirros, -vm vm121 -s SHUTOFF -o + cirros, -vm Final -s SHUTOFF -o + cirros, -vm final1.0 -s SHUTOFF -o + cirros, 
-2013-09-06 12:38:57,980 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-06 12:38:57,982 - manageVM.client -
-                            [INFO] - -o + cirros + -i + 1, 
-2013-09-06 12:39:40,111 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-06 12:40:27,372 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-06 12:42:06,948 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-06 12:42:54,051 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-06 12:44:18,365 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-06 12:44:30,768 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-06 12:47:20,358 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-06 12:49:41,967 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:51:39,476 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-06 12:51:42,202 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-06 12:51:42,203 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-06 12:52:18,258 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-09 14:06:40,812 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-09 14:07:12,029 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-09 14:07:25,337 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-09 14:07:40,479 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-09 14:07:47,597 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-09 14:11:15,983 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-09 14:11:19,687 - manageVM.processing -
-                            [WARNING] - Attempt to power off unactive domain
-2013-09-09 14:11:19,688 - manageVM.server -
-                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
-2013-09-09 14:11:19,690 - manageVM.client -
-                            [INFO] - VM vm powered off
-2013-09-09 14:11:23,516 - manageVM.server -
-                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
-2013-09-09 14:11:23,517 - manageVM.client -
-                            [INFO] - VM vm powered on
-2013-09-09 14:11:36,351 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-09 14:11:36,352 - manageVM.client -
-                            [INFO] - VM TESTVM2 was destroyed
-2013-09-09 14:11:43,360 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-10 16:16:01,329 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-10 16:19:19,673 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-10 16:43:00,842 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-11 16:04:56,969 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-11 16:06:23,369 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-11 16:19:37,842 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-11 18:37:41,774 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 13:50:14,745 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 14:02:42,155 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 14:19:24,241 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 14:20:16,497 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 14:49:35,121 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 14:49:43,961 - manageVM.server -
-                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
-2013-09-12 14:49:43,963 - manageVM.client -
-                            [INFO] - Bridge br01 with address 192.168.5.1 was successfully created
-2013-09-12 14:50:13,416 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: network 'br01' already exists with uuid fed048f5-7f19-13b9-b282-f52ce31e3dc0
-2013-09-12 14:50:13,420 - manageVM.client -
-                            [INFO] - Fault
-2013-09-12 14:50:13,420 - manageVM.client -
-                            [ERROR] - operation failed: network 'br01' already exists with uuid fed048f5-7f19-13b9-b282-f52ce31e3dc0
-2013-09-12 14:51:19,382 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'with_bridge' already exists with uuid 9d9735e7-c830-76f4-6e5f-4fbfb3a3bae2
-2013-09-12 14:51:19,383 - manageVM.client -
-                            [INFO] - Fault
-2013-09-12 14:51:19,383 - manageVM.client -
-                            [ERROR] - operation failed: domain 'with_bridge' already exists with uuid 9d9735e7-c830-76f4-6e5f-4fbfb3a3bae2
-2013-09-12 14:51:52,345 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 14:51:58,603 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-12 14:51:58,605 - manageVM.client -
-                            [INFO] - New VM newvm was successfully created
-2013-09-12 14:52:14,610 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 14:52:36,493 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-12 14:52:36,495 - manageVM.client -
-                            [INFO] - New VM newvm1 was successfully created
-2013-09-12 14:58:04,963 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-12 14:58:04,965 - manageVM.client -
-                            [INFO] - VM newvm1 was destroyed
-2013-09-12 14:58:09,747 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-12 14:58:09,750 - manageVM.client -
-                            [INFO] - VM newvm was destroyed
-2013-09-12 14:58:13,951 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Network not found: no network with matching name 'br01'
-2013-09-12 14:58:13,955 - manageVM.client -
-                            [INFO] - Fault
-2013-09-12 14:58:13,955 - manageVM.client -
-                            [ERROR] - Network not found: no network with matching name 'br01'
-2013-09-12 14:59:05,730 - manageVM.server -
-                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
-2013-09-12 14:59:05,732 - manageVM.client -
-                            [INFO] - Bridge br01 with address 192.168.7.1 was successfully created
-2013-09-12 14:59:53,045 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-12 14:59:53,047 - manageVM.client -
-                            [INFO] - New VM newvm1 was successfully created
-2013-09-12 15:01:27,074 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-12 15:01:27,075 - manageVM.client -
-                            [INFO] - New VM newvm2 was successfully created
-2013-09-12 15:01:40,016 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-12 15:01:40,019 - manageVM.client -
-                            [INFO] - VM newvm1 was destroyed
-2013-09-12 15:01:44,167 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-12 15:01:44,169 - manageVM.client -
-                            [INFO] - VM newvm2 was destroyed
-2013-09-12 15:02:21,980 - manageVM.server -
-                            [INFO] - Operation delBridge from host 127.0.0.1 completed.
-2013-09-12 15:02:21,982 - manageVM.client -
-                            [INFO] - Bridge %s was destroyed
-2013-09-12 15:26:41,180 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 15:27:13,586 - manageVM.server -
-                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
-2013-09-12 15:27:13,588 - manageVM.client -
-                            [INFO] - Bridge br01 with address 192.168.8.1 was successfully created
-2013-09-12 15:27:20,386 - manageVM.server -
-                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
-2013-09-12 15:27:20,388 - manageVM.client -
-                            [INFO] - Bridge br02 with address 192.168.9.1 was successfully created
-2013-09-12 15:27:34,836 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-12 15:27:34,838 - manageVM.client -
-                            [INFO] - New VM newvm1 was successfully created
-2013-09-12 15:27:47,861 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-12 15:27:47,863 - manageVM.client -
-                            [INFO] - New VM newvm2 was successfully created
-2013-09-12 15:29:16,331 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 15:30:15,665 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Attempt to delete not empty bridge
-2013-09-12 15:30:15,668 - manageVM.client -
-                            [INFO] - Fault
-2013-09-12 15:31:04,183 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 Attempt to delete not empty bridge
-2013-09-12 15:31:04,185 - manageVM.client -
-                            [INFO] - Fault
-2013-09-12 15:31:04,186 - manageVM.client -
-                            [ERROR] - Attempt to delete not empty bridge
-2013-09-12 16:20:31,024 - manageVM.server -
-                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
-2013-09-12 16:20:31,026 - manageVM.client -
-                            [INFO] - OS: cirros, ID: 1, 
-2013-09-12 16:20:37,737 - manageVM.server -
-                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
-2013-09-12 16:20:37,738 - manageVM.client -
-                            [INFO] - VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01, VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02, 
-2013-09-12 16:25:24,803 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 16:28:08,026 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 16:28:29,662 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-12 16:28:29,664 - manageVM.client -
-                            [INFO] - VM newvm1 was destroyed
-2013-09-12 16:29:08,636 - manageVM.server -
-                            [INFO] - Operation delBridge from host 127.0.0.1 completed.
-2013-09-12 16:29:08,637 - manageVM.client -
-                            [INFO] - Bridge br01 was destroyed
-2013-09-12 17:59:13,830 - manageVM.server -
-                            [INFO] - Operation delete from host 127.0.0.1 completed.
-2013-09-12 17:59:13,831 - manageVM.client -
-                            [INFO] - VM newvm2 was destroyed
-2013-09-12 17:59:31,124 - manageVM -
-                            [ERROR] - Stop serving due to keyboard interrupt
-2013-09-12 18:36:44,454 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-12 18:36:44,456 - manageVM.client -
-                            [INFO] - New VM newvm2 was successfully created
-2013-09-12 18:36:52,891 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 list index out of range
-2013-09-12 18:36:52,893 - manageVM.client -
-                            [INFO] - Fault
-2013-09-12 18:36:52,893 - manageVM.client -
-                            [ERROR] - list index out of range
-2013-09-12 18:37:31,758 - manageVM.server -
-                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
-2013-09-12 18:37:31,760 - manageVM.client -
-                            [INFO] - Bridge br01 with address 192.168.10.1 was successfully created
-2013-09-12 18:37:38,162 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'newvm1' already exists with uuid be45d676-7d36-4094-49b6-99eb4f47b3ff
-2013-09-12 18:37:38,164 - manageVM.client -
-                            [INFO] - Fault
-2013-09-12 18:37:38,164 - manageVM.client -
-                            [ERROR] - operation failed: domain 'newvm1' already exists with uuid be45d676-7d36-4094-49b6-99eb4f47b3ff
-2013-09-12 18:37:54,933 - manageVM.server -
-                            [ERROR] - Error occured from host 127.0.0.1 (IntegrityError) (1062, "Duplicate entry 'newvm1' for key 'name'")
-2013-09-12 18:37:54,935 - manageVM.client -
-                            [INFO] - Fault
-2013-09-12 18:37:54,935 - manageVM.client -
-                            [ERROR] - (IntegrityError) (1062, "Duplicate entry 'newvm1' for key 'name'")
-2013-09-12 18:38:52,631 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-12 18:38:52,633 - manageVM.client -
-                            [INFO] - New VM newvm1 was successfully created
-2013-09-12 18:39:01,149 - manageVM.server -
-                            [INFO] - Operation create from host 127.0.0.1 completed.
-2013-09-12 18:39:01,151 - manageVM.client -
-                            [INFO] - New VM newvm3 was successfully created
+2013-09-20 15:22:41,844 - manageVM.client -
+                            [ERROR] - Domain not found: no domain with matching name 'VM4'
+2013-09-20 15:22:57,940 - manageVM.compute -
+                            [INFO] - New VM VM4 was successfully created
+2013-09-20 15:22:58,194 - manageVM.client -
+                            [INFO] - New VM VM4 was successfully created

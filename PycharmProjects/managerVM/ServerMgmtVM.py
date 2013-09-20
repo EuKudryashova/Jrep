@@ -4,17 +4,18 @@ Module make server to manage VMs,  ...
 import logging
 import simplejson
 from wsgiref.simple_server import make_server
-import ConfigParser
 import libvirt
 import webob
 from sqlalchemy import *
+import workerAMQP
 import methods
 import confLogging
 import DB
 import queries
 import manageBridges
 
-class ManageVM(object):
+
+class ManageVM(workerAMQP.Worker):
     """Application for serving.
 
     Allows manipulations of VM's images, such as creating, destroying,
@@ -24,7 +25,9 @@ class ManageVM(object):
     def __init__(self, con):
         """Initialise serving application."""
         self.con = libvirt.open(con)
- 
+        self.logger = logging.getLogger('manageVM.server')
+        super(ManageVM, self).__init__()
+
     def __call__(self, environ, start_response):
         """Loads  given request, process it and return response"""
         req = webob.Request(environ)
@@ -32,75 +35,20 @@ class ManageVM(object):
         return resp(environ, start_response)
 
     def processReq(self, req):
-        """Processing given request.
-
-        Process required method on VM and return formed response
-        dependent on results of operation.
-        """
+        """Processing given request. Send Query to specified worker"""
         json = simplejson.loads(req.body)
         resp = webob.Response(status=200, content_type='application/json')
-        try:
-            action = json['action']
-            del json['action']
-        except KeyError as e:
-            return self.handleError(req, resp, e)
-        meth = self.defineMethod(action)
-        try:
-            resp = self.processMeth(meth, json, resp)
-        except Exception as e:
-            return self.handleError(req, resp, e)
-        logger = logging.getLogger('manageVM.server')
-        logger.info('Operation ' + meth.__name__ +
-                    ' from host ' + req.client_addr + ' completed.')
+        resp.body = self.send_mes(json)
         return resp
 
-    def defineDomain(self, name=None, domId=None):
-        """Define domain by given name or id."""
-        x = None
-        if name:
-            x =  self.con.lookupByName(name)
-        elif domId:
-            x = self.con.lookupById(int(domId))
-        if x:
-            queries.get_or_create(x)
-        return x
-
-    def defineMethod(self, act):
-        """Define required method, get it from module with allowed methods."""
-        prc = ConfigParser.RawConfigParser()
-        prc.read('defConfig.ini')
-        actionMap = dict(prc.items('ACTIONMAP'))
-        methName = actionMap[act]
-        meth = getattr(methods, methName, None) or getattr(manageBridges, methName, None)
-        return meth
-
-    def processMeth(self, meth, args, resp):
-        """Process defined method and form response.
-
-        Could raise libvirtError while processing.
-        """
-        name = meth.__name__
-        if name == 'createBridge' or name == 'delBridge':
-            res = meth(args['bridge'])
-        elif name == 'create':
-            res = meth(args, self.con)
-        elif name == 'get_vm_list' or name == 'get_os_list':
-            res = meth()
-        else:
-            dom = self.defineDomain(args.get('name'), args.get('id'))
-            res = meth(dom)
-        resp.body = simplejson.dumps({'result': res, 'error': None})
-        return resp
-
-    def handleError(self, req, resp, err):
-        """Process occured errors and form response in this cases."""
-        resp.status = 400
-        resp.body = simplejson.dumps({'result': 'Fault',
-                                      'error': err.message})
-        logger = logging.getLogger('manageVM.server')
-        logger.error('Error occured from host ' + req.client_addr +
-                     ' ' + err.message)
-        return resp
+    def run(self):
+        self.define_queue('s_vm')
+        self.define_queue('s_net')
+        self.define_queue('vm_s')
+        self.define_queue('net_s')
+        self.do_basic_consume(self.receive_res, 'vm_s')
+        self.do_basic_consume(self.receive_res, 'net_s')
+        self.start_consuming()
 
 
 def main():
@@ -109,12 +57,16 @@ def main():
     engine = create_engine('mysql://root:password@localhost/VM_db', echo=True)
     DB.Base.metadata.create_all(engine)
     logger = logging.getLogger('manageVM')
-    logger = confLogging.configLog(logger)    
+    logger = confLogging.configLog(logger)
+    app.run()
+    methods.set_worker()
+    manageBridges.set_worker()
     try:
         srvr.serve_forever()
     except KeyboardInterrupt:
         session = queries.getSession()
         session.close()
+        app.stop()
         logger.error('Stop serving due to keyboard interrupt')
 
 
