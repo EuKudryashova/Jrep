@@ -1,0 +1,7 @@
+      <network>
+        <name>{netname}</name>
+        <bridge name="{brname}" />
+        <forward mode="bridge" />
+        <ip address="{ipaddr}" netmask="{netmask}">
+        </ip>
+      </network>
