@@ -1,0 +1,2586 @@
+2013-08-28 16:44:22,218 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-08-28 16:45:06,967 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-08-28 16:45:06,968 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-08-28 16:45:11,068 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-08-28 16:45:11,068 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-08-28 16:45:18,366 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 16:47:29,143 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 16:51:09,858 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:02:56,532 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:03:36,044 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:04:57,701 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:05:09,345 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:06:04,397 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:10:32,515 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:22:11,049 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:25:33,010 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:52:40,411 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:52:40,413 - manageVM.client -
+                            [ERROR] - operation failed: domain 'TESTVM2' already exists with uuid 4a755918-3202-013c-1a2d-4751d870417e
+2013-08-28 17:52:50,765 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-08-28 17:52:50,765 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-08-28 17:52:57,226 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-08-28 17:53:01,654 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-08-28 17:53:03,550 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-08-28 17:54:36,393 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
+2013-08-28 17:54:36,394 - manageVM.client -
+                            [ERROR] - Requested operation is not valid: domain is already running
+2013-08-28 17:55:00,688 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-08-28 17:55:00,690 - manageVM.client -
+                            [INFO] - VM TESTVM2 powered off
+2013-08-28 18:06:01,886 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Domain not found: no domain with matching name 'TEST'
+2013-08-28 18:06:01,887 - manageVM.client -
+                            [INFO] - Fault
+2013-08-28 18:06:01,888 - manageVM.client -
+                            [ERROR] - Domain not found: no domain with matching name 'TEST'
+2013-08-28 18:06:27,346 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-08-28 18:06:27,348 - manageVM.client -
+                            [INFO] - VM TESTVM2 powered on
+2013-08-28 18:06:37,986 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-08-28 18:06:37,988 - manageVM.client -
+                            [INFO] - VM TESTVM2 was destroyed
+2013-08-28 18:06:44,470 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-08-28 18:06:44,472 - manageVM.client -
+                            [INFO] - New VM TESTVM2 was successfully created
+2013-09-03 15:42:15,799 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-03 15:42:15,801 - manageVM.client -
+                            [INFO] - New VM vm was successfully created
+2013-09-03 16:05:45,958 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'vm121' already exists with uuid 81a5e583-c098-0b12-c5e8-5d730c9c9e78
+2013-09-03 16:05:45,959 - manageVM.client -
+                            [INFO] - Fault
+2013-09-03 16:05:45,959 - manageVM.client -
+                            [ERROR] - operation failed: domain 'vm121' already exists with uuid 81a5e583-c098-0b12-c5e8-5d730c9c9e78
+2013-09-03 16:06:00,392 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-03 16:06:00,394 - manageVM.client -
+                            [INFO] - New VM vm11 was successfully created
+2013-09-03 16:33:05,204 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:37:56,621 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:37:56,623 - manageVM.client -
+                            [INFO] - VM 'TESTVM', state: 'on', os: 'cirros')
+VM 'TESTVM1', state: '', os: 'cirros')
+VM 'VMnewtest', state: 'off', os: 'cirros')
+VM 'vm', state: 'off', os: 'cirros')
+VM 'vm11', state: 'off', os: 'cirros')
+
+2013-09-03 16:39:47,156 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:39:51,440 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:39:51,442 - manageVM.client -
+                            [INFO] - VM 'TESTVM', state: 'on', os: 'cirros'
+VM 'TESTVM1', state: '', os: 'cirros'
+VM 'VMnewtest', state: 'off', os: 'cirros'
+VM 'vm', state: 'off', os: 'cirros'
+VM 'vm11', state: 'off', os: 'cirros'
+
+2013-09-03 16:41:18,436 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:41:23,877 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:41:23,878 - manageVM.client -
+                            [INFO] - VM 'TESTVM', state: 'on', os: 'cirros'
+VM 'TESTVM1', state: '', os: 'cirros'
+VM 'VMnewtest', state: 'off', os: 'cirros'
+VM 'vm', state: 'off', os: 'cirros'
+VM 'vm11', state: 'off', os: 'cirros'
+
+2013-09-03 16:41:27,679 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-03 16:41:27,680 - manageVM.client -
+                            [INFO] - <OS 'cirros', id 1')>
+
+2013-09-03 16:42:02,524 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:42:05,738 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-03 16:42:05,740 - manageVM.client -
+                            [INFO] - <OS 'cirros', id 1')>
+
+2013-09-03 16:42:09,565 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:42:09,568 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'off', os: 'cirros'>
+
+2013-09-03 16:42:23,012 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:42:27,103 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:42:27,106 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'off', os: 'cirros'>
+
+2013-09-03 16:42:30,702 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-03 16:42:30,703 - manageVM.client -
+                            [INFO] - <OS 'cirros', id 1'>
+
+2013-09-03 16:44:13,300 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:44:58,900 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:45:02,366 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-03 16:45:02,367 - manageVM.client -
+                            [INFO] - VM vm11 was destroyed
+2013-09-03 16:45:07,309 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:45:07,311 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+
+2013-09-03 16:45:15,393 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-03 16:45:15,394 - manageVM.client -
+                            [INFO] - New VM vm11 was successfully created
+2013-09-03 16:45:18,344 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:45:18,345 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'off', os: 'cirros'>
+
+2013-09-03 16:45:43,490 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-03 16:45:43,491 - manageVM.client -
+                            [INFO] - VM vm11 powered on
+2013-09-03 16:45:48,198 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:45:48,199 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'off', os: 'cirros'>
+
+2013-09-03 16:46:53,092 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:46:57,360 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
+2013-09-03 16:46:57,362 - manageVM.client -
+                            [INFO] - Fault
+2013-09-03 16:46:57,362 - manageVM.client -
+                            [ERROR] - Requested operation is not valid: domain is already running
+2013-09-03 16:47:12,957 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-03 16:47:12,957 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:47:12,959 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-03 16:47:19,163 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
+2013-09-03 16:47:19,165 - manageVM.client -
+                            [INFO] - Fault
+2013-09-03 16:47:19,166 - manageVM.client -
+                            [ERROR] - Requested operation is not valid: domain is already running
+2013-09-03 16:47:36,506 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-03 16:47:36,507 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:47:36,509 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-03 16:48:42,052 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:48:46,638 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
+2013-09-03 16:48:46,639 - manageVM.client -
+                            [INFO] - Fault
+2013-09-03 16:48:46,639 - manageVM.client -
+                            [ERROR] - Requested operation is not valid: domain is already running
+2013-09-03 16:48:54,743 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:48:54,745 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-03 16:49:10,438 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:49:10,441 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'off', os: 'cirros'>
+
+2013-09-03 16:49:15,053 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-03 16:49:15,054 - manageVM.client -
+                            [INFO] - VM vm11 powered on
+2013-09-03 16:49:18,051 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:49:18,053 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'on', os: 'cirros'>
+
+2013-09-03 16:49:25,880 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-03 16:49:25,880 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:49:25,881 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-03 16:49:28,239 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:49:28,240 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'on', os: 'cirros'>
+
+2013-09-03 16:49:38,239 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-03 16:49:38,239 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:49:38,241 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-03 16:49:41,145 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:49:41,147 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'on', os: 'cirros'>
+
+2013-09-03 16:49:59,988 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-03 16:50:06,670 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:50:06,672 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-03 16:50:10,200 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:50:10,202 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'off', os: 'cirros'>
+
+2013-09-03 16:50:16,179 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-03 16:50:16,180 - manageVM.client -
+                            [INFO] - VM vm11 powered on
+2013-09-03 16:50:17,734 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:50:17,736 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'on', os: 'cirros'>
+
+2013-09-03 16:50:21,263 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:50:21,265 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-03 16:50:24,688 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-03 16:50:24,689 - manageVM.client -
+                            [INFO] - VM vm11 powered on
+2013-09-03 16:50:27,537 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:50:27,538 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'on', os: 'cirros'>
+
+2013-09-03 16:50:38,356 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:50:38,357 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-03 16:50:40,073 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:50:40,074 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'off', os: 'cirros'>
+
+2013-09-03 16:52:16,329 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-03 16:52:16,331 - manageVM.client -
+                            [INFO] - VM vm121 powered on
+2013-09-03 16:52:17,994 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-03 16:52:17,995 - manageVM.client -
+                            [INFO] - <VM 'TESTVM', state: 'on', os: 'cirros'>
+<VM 'TESTVM1', state: '', os: 'cirros'>
+<VM 'VMnewtest', state: 'off', os: 'cirros'>
+<VM 'vm', state: 'off', os: 'cirros'>
+<VM 'vm11', state: 'off', os: 'cirros'>
+<VM 'vm121', state: 'on', os: 'cirros'>
+
+2013-09-03 16:52:23,953 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-03 16:52:23,953 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:52:23,955 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-03 16:52:39,381 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-03 16:52:39,382 - manageVM.client -
+                            [INFO] - VM vm121 powered off
+2013-09-04 12:41:26,770 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 12:55:33,394 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'vm11' already exists with uuid 1d119440-c816-524d-14aa-03e2feeb0a92
+2013-09-04 12:55:33,395 - manageVM.client -
+                            [INFO] - Fault
+2013-09-04 12:55:33,395 - manageVM.client -
+                            [ERROR] - operation failed: domain 'vm11' already exists with uuid 1d119440-c816-524d-14aa-03e2feeb0a92
+2013-09-04 12:56:57,722 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 12:58:44,842 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 13:02:04,218 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 13:02:26,130 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 13:06:09,106 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 13:06:49,650 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 13:07:17,995 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 13:13:59,826 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 13:14:48,018 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 13:27:42,554 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 14:09:46,894 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 14:09:46,895 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 14:09:46,896 - manageVM.client -
+                            [INFO] - VM TESTVM powered off
+2013-09-04 14:09:59,860 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-04 14:09:59,861 - manageVM.client -
+                            [INFO] - VM TESTVM powered on
+2013-09-04 14:21:55,483 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 14:23:39,115 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 14:23:49,983 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'vm11' already exists with uuid 1d119440-c816-524d-14aa-03e2feeb0a92
+2013-09-04 14:23:49,984 - manageVM.client -
+                            [INFO] - Fault
+2013-09-04 14:23:49,984 - manageVM.client -
+                            [ERROR] - operation failed: domain 'vm11' already exists with uuid 1d119440-c816-524d-14aa-03e2feeb0a92
+2013-09-04 14:24:13,961 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-04 14:24:13,962 - manageVM.client -
+                            [INFO] - VM vm11 powered on
+2013-09-04 14:24:28,209 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
+2013-09-04 14:24:28,211 - manageVM.client -
+                            [INFO] - Fault
+2013-09-04 14:24:28,212 - manageVM.client -
+                            [ERROR] - Requested operation is not valid: domain is already running
+2013-09-04 14:26:13,595 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 14:26:18,995 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
+2013-09-04 14:26:18,997 - manageVM.client -
+                            [INFO] - Fault
+2013-09-04 14:26:18,997 - manageVM.client -
+                            [ERROR] - Requested operation is not valid: domain is already running
+2013-09-04 14:26:24,585 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 14:26:24,586 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 14:26:24,588 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-04 14:27:07,951 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-04 14:27:07,952 - manageVM.client -
+                            [INFO] - <OS 'cirros', id 1>
+
+2013-09-04 14:30:12,520 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'TESTVM' already exists with uuid 7f5bed79-1eab-10b1-89fa-7252cb6f0b23
+2013-09-04 14:30:12,521 - manageVM.client -
+                            [INFO] - Fault
+2013-09-04 14:30:12,521 - manageVM.client -
+                            [ERROR] - operation failed: domain 'TESTVM' already exists with uuid 7f5bed79-1eab-10b1-89fa-7252cb6f0b23
+2013-09-04 14:30:23,948 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
+2013-09-04 14:30:23,950 - manageVM.client -
+                            [INFO] - Fault
+2013-09-04 14:30:23,950 - manageVM.client -
+                            [ERROR] - Requested operation is not valid: domain is already running
+2013-09-04 14:30:31,016 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 14:30:31,016 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 14:30:31,018 - manageVM.client -
+                            [INFO] - VM TESTVM powered off
+2013-09-04 14:30:36,712 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Requested operation is not valid: domain is already running
+2013-09-04 14:30:36,714 - manageVM.client -
+                            [INFO] - Fault
+2013-09-04 14:30:36,714 - manageVM.client -
+                            [ERROR] - Requested operation is not valid: domain is already running
+2013-09-04 14:30:53,225 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 14:30:53,226 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 14:30:53,227 - manageVM.client -
+                            [INFO] - VM TESTVM powered off
+2013-09-04 14:31:25,128 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-04 14:31:25,129 - manageVM.client -
+                            [INFO] - VM TESTVM powered on
+2013-09-04 14:31:34,629 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 14:31:34,630 - manageVM.client -
+                            [INFO] - VM TESTVM powered off
+2013-09-04 14:31:59,838 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-04 14:31:59,839 - manageVM.client -
+                            [INFO] - VM vm11 powered on
+2013-09-04 14:32:13,547 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 14:32:13,549 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-04 15:02:56,678 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-04 15:02:56,679 - manageVM.client -
+                            [INFO] - <OS 'cirros', id 1>
+
+2013-09-04 15:03:31,843 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 15:10:36,487 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 15:10:36,488 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 15:10:36,490 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-04 15:10:47,800 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-04 15:10:47,801 - manageVM.client -
+                            [INFO] - VM vm11 powered on
+2013-09-04 15:10:51,900 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-04 15:10:51,901 - manageVM.client -
+                            [INFO] - <OS 'cirros', id 1>
+
+2013-09-04 15:10:57,031 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-04 15:10:57,032 - manageVM.client -
+                            [INFO] - <VM 'vm11', state: '1', os: 'cirros'>
+<VM 'TESTVM', state: '5', os: 'cirros'>
+
+2013-09-04 15:11:10,958 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 15:11:10,959 - manageVM.client -
+                            [INFO] - VM vm11 powered off
+2013-09-04 15:12:13,356 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 15:12:17,229 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 15:16:55,757 - manageVM.server -
+                            [INFO] - Operation get_vm_state from host 127.0.0.1 completed.
+2013-09-04 15:16:55,759 - manageVM.client -
+                            [INFO] - 5
+2013-09-04 15:21:37,829 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 15:22:04,629 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 15:22:07,424 - manageVM.server -
+                            [INFO] - Operation get_vm_state from host 127.0.0.1 completed.
+2013-09-04 15:22:07,426 - manageVM.client -
+                            [INFO] - SHUTOFF
+2013-09-04 15:22:21,911 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-04 15:22:21,913 - manageVM.client -
+                            [INFO] - <VM 'vm11', state: '5', os: 'cirros'>
+<VM 'TESTVM', state: '5', os: 'cirros'>
+
+2013-09-04 15:24:32,077 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 15:24:34,653 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-04 15:24:34,655 - manageVM.client -
+                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
+
+2013-09-04 15:25:13,340 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-04 15:25:13,341 - manageVM.client -
+                            [INFO] - VM TESTVM1 powered on
+2013-09-04 15:25:23,300 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 15:25:23,301 - manageVM.client -
+                            [INFO] - VM TESTVM1 powered off
+2013-09-04 15:25:26,735 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 15:25:26,735 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 15:25:26,737 - manageVM.client -
+                            [INFO] - VM TESTVM2 powered off
+2013-09-04 15:26:41,535 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-04 15:26:41,537 - manageVM.client -
+                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM1', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM2', state: 'SHUTOFF', os: 'cirros'>
+
+2013-09-04 15:27:02,933 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 15:27:02,933 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 15:27:02,935 - manageVM.client -
+                            [INFO] - VM VMnewtest powered off
+2013-09-04 15:27:05,766 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-04 15:27:05,767 - manageVM.client -
+                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM1', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM2', state: 'SHUTOFF', os: 'cirros'>
+<VM 'VMnewtest', state: 'SHUTOFF', os: 'cirros'>
+
+2013-09-04 15:27:12,474 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 15:27:12,474 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 15:27:12,476 - manageVM.client -
+                            [INFO] - VM vm powered off
+2013-09-04 15:27:39,382 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 15:27:39,382 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 15:27:39,384 - manageVM.client -
+                            [INFO] - VM vm121 powered off
+2013-09-04 15:27:41,526 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-04 15:27:41,526 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-04 15:27:41,528 - manageVM.client -
+                            [INFO] - VM vm powered off
+2013-09-04 15:27:56,157 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 15:28:00,099 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-04 15:28:00,101 - manageVM.client -
+                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM1', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM2', state: 'SHUTOFF', os: 'cirros'>
+<VM 'VMnewtest', state: 'SHUTOFF', os: 'cirros'>
+<VM 'vm', state: 'SHUTOFF', os: 'cirros'>
+<VM 'vm121', state: 'SHUTOFF', os: 'cirros'>
+
+2013-09-04 15:34:05,429 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-04 18:28:02,065 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-04 18:28:57,356 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'Final' already exists with uuid 8584dacb-f848-c8ef-56df-6075fc0512ed
+2013-09-04 18:28:57,358 - manageVM.client -
+                            [INFO] - Fault
+2013-09-04 18:28:57,358 - manageVM.client -
+                            [ERROR] - operation failed: domain 'Final' already exists with uuid 8584dacb-f848-c8ef-56df-6075fc0512ed
+2013-09-04 18:29:18,847 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'Final' already exists with uuid 8584dacb-f848-c8ef-56df-6075fc0512ed
+2013-09-04 18:29:18,848 - manageVM.client -
+                            [INFO] - Fault
+2013-09-04 18:29:18,848 - manageVM.client -
+                            [ERROR] - operation failed: domain 'Final' already exists with uuid 8584dacb-f848-c8ef-56df-6075fc0512ed
+2013-09-05 12:13:40,457 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-05 12:13:40,459 - manageVM.client -
+                            [INFO] - <VM 'vm11', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM1', state: 'SHUTOFF', os: 'cirros'>
+<VM 'TESTVM2', state: 'SHUTOFF', os: 'cirros'>
+<VM 'VMnewtest', state: 'SHUTOFF', os: 'cirros'>
+<VM 'vm', state: 'SHUTOFF', os: 'cirros'>
+<VM 'vm121', state: 'SHUTOFF', os: 'cirros'>
+<VM 'Final', state: 'SHUTOFF', os: 'cirros'>
+
+2013-09-05 12:17:12,925 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-05 12:17:12,926 - manageVM.client -
+                            [INFO] - <OS 'cirros', id 1>
+
+2013-09-05 12:21:04,883 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-05 12:21:07,920 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-05 12:21:07,921 - manageVM.client -
+                            [INFO] - {'os': 'cirros', 'id': 1}
+
+2013-09-05 12:27:11,474 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-05 12:27:11,477 - manageVM.client -
+                            [INFO] - {'os': 'cirros', 'id': 1}
+
+2013-09-05 12:53:32,162 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-05 12:53:32,163 - manageVM.client -
+                            [INFO] - {'os': 'cirros', 'id': 1}
+
+2013-09-05 15:48:08,805 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-05 15:48:08,806 - manageVM.client -
+                            [INFO] - {'os': 'cirros', 'id': 1}
+
+2013-09-05 15:49:20,691 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-05 15:49:20,692 - manageVM.client -
+                            [INFO] - New VM final1.0 was successfully created
+2013-09-05 15:49:23,368 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-05 15:49:23,370 - manageVM.client -
+                            [INFO] - {'vm': 'vm11', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM1', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM2', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'VMnewtest', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'vm', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'vm121', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'Final', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'final1.0', 'state': 'SHUTOFF', 'os': 'cirros'}
+
+2013-09-05 15:49:30,219 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-05 15:49:30,220 - manageVM.client -
+                            [INFO] - {'os': 'cirros', 'id': 1}
+
+2013-09-05 15:51:36,103 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-05 15:51:36,103 - manageVM.client -
+                            [INFO] - {'os': 'cirros', 'id': 1}
+
+2013-09-05 15:54:04,022 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-05 15:54:04,023 - manageVM.client -
+                            [INFO] - {'os': 'cirros', 'id': 1}
+
+2013-09-05 17:04:55,741 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'final1.0' already exists with uuid f9d5ef6e-ede6-9f21-4d50-6e7d02cef6d7
+2013-09-05 17:04:55,742 - manageVM.client -
+                            [INFO] - Fault
+2013-09-05 17:43:10,350 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-05 17:43:10,351 - manageVM.client -
+                            [INFO] - {'os': 'cirros', 'id': 1}
+
+2013-09-05 17:43:13,747 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-05 17:43:13,749 - manageVM.client -
+                            [INFO] - {'vm': 'vm11', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM1', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM2', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'VMnewtest', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'vm', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'vm121', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'Final', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'final1.0', 'state': 'SHUTOFF', 'os': 'cirros'}
+
+2013-09-05 18:01:40,975 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-05 18:01:40,976 - manageVM.client -
+                            [INFO] - {'vm': 'vm11', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM1', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM2', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'VMnewtest', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'vm', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'vm121', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'Final', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'final1.0', 'state': 'SHUTOFF', 'os': 'cirros'}
+
+2013-09-05 18:05:55,856 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-05 18:05:55,857 - manageVM.client -
+                            [INFO] - {'vm': 'vm11', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM1', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'TESTVM2', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'VMnewtest', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'vm', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'vm121', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'Final', 'state': 'SHUTOFF', 'os': 'cirros'}
+{'vm': 'final1.0', 'state': 'SHUTOFF', 'os': 'cirros'}
+
+2013-09-06 12:11:08,381 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-06 12:11:08,383 - manageVM.client -
+                            [INFO] - VM vm121 powered on
+2013-09-06 12:11:49,082 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:17:31,779 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:17:31,779 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:17:57,016 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:17:57,016 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:18:09,486 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:18:09,486 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:18:29,332 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:18:29,333 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:18:56,561 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:18:56,562 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:19:21,015 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:19:21,016 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:20:24,453 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:20:24,454 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:20:33,836 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:20:33,836 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:34:52,574 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-06 12:35:58,277 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-06 12:35:58,279 - manageVM.client -
+                            [INFO] - -vm vm11 -s SHUTOFF -o + cirros, -vm TESTVM -s SHUTOFF -o + cirros, -vm TESTVM1 -s SHUTOFF -o + cirros, -vm TESTVM2 -s SHUTOFF -o + cirros, -vm VMnewtest -s SHUTOFF -o + cirros, -vm vm -s SHUTOFF -o + cirros, -vm vm121 -s SHUTOFF -o + cirros, -vm Final -s SHUTOFF -o + cirros, -vm final1.0 -s SHUTOFF -o + cirros, 
+2013-09-06 12:36:10,119 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-06 12:36:10,121 - manageVM.client -
+                            [INFO] - -vm vm11 -s SHUTOFF -o + cirros, -vm TESTVM -s SHUTOFF -o + cirros, -vm TESTVM1 -s SHUTOFF -o + cirros, -vm TESTVM2 -s SHUTOFF -o + cirros, -vm VMnewtest -s SHUTOFF -o + cirros, -vm vm -s SHUTOFF -o + cirros, -vm vm121 -s SHUTOFF -o + cirros, -vm Final -s SHUTOFF -o + cirros, -vm final1.0 -s SHUTOFF -o + cirros, 
+2013-09-06 12:36:19,939 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-06 12:36:19,941 - manageVM.client -
+                            [INFO] - -vm vm11 -s SHUTOFF -o + cirros, -vm TESTVM -s SHUTOFF -o + cirros, -vm TESTVM1 -s SHUTOFF -o + cirros, -vm TESTVM2 -s SHUTOFF -o + cirros, -vm VMnewtest -s SHUTOFF -o + cirros, -vm vm -s SHUTOFF -o + cirros, -vm vm121 -s SHUTOFF -o + cirros, -vm Final -s SHUTOFF -o + cirros, -vm final1.0 -s SHUTOFF -o + cirros, 
+2013-09-06 12:36:49,258 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-06 12:36:49,260 - manageVM.client -
+                            [INFO] - -vm vm11 -s SHUTOFF -o + cirros, -vm TESTVM -s SHUTOFF -o + cirros, -vm TESTVM1 -s SHUTOFF -o + cirros, -vm TESTVM2 -s SHUTOFF -o + cirros, -vm VMnewtest -s SHUTOFF -o + cirros, -vm vm -s SHUTOFF -o + cirros, -vm vm121 -s SHUTOFF -o + cirros, -vm Final -s SHUTOFF -o + cirros, -vm final1.0 -s SHUTOFF -o + cirros, 
+2013-09-06 12:38:57,980 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-06 12:38:57,982 - manageVM.client -
+                            [INFO] - -o + cirros + -i + 1, 
+2013-09-06 12:39:40,111 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-06 12:40:27,372 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-06 12:42:06,948 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-06 12:42:54,051 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-06 12:44:18,365 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-06 12:44:30,768 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-06 12:47:20,358 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-06 12:49:41,967 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:51:39,476 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-06 12:51:42,202 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-06 12:51:42,203 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-06 12:52:18,258 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-09 14:06:40,812 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-09 14:07:12,029 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-09 14:07:25,337 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-09 14:07:40,479 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-09 14:07:47,597 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-09 14:11:15,983 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-09 14:11:19,687 - manageVM.processing -
+                            [WARNING] - Attempt to power off unactive domain
+2013-09-09 14:11:19,688 - manageVM.server -
+                            [INFO] - Operation powerOff from host 127.0.0.1 completed.
+2013-09-09 14:11:19,690 - manageVM.client -
+                            [INFO] - VM vm powered off
+2013-09-09 14:11:23,516 - manageVM.server -
+                            [INFO] - Operation powerOn from host 127.0.0.1 completed.
+2013-09-09 14:11:23,517 - manageVM.client -
+                            [INFO] - VM vm powered on
+2013-09-09 14:11:36,351 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-09 14:11:36,352 - manageVM.client -
+                            [INFO] - VM TESTVM2 was destroyed
+2013-09-09 14:11:43,360 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-10 16:16:01,329 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-10 16:19:19,673 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-10 16:43:00,842 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-11 16:04:56,969 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-11 16:06:23,369 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-11 16:19:37,842 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-11 18:37:41,774 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 13:50:14,745 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 14:02:42,155 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 14:19:24,241 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 14:20:16,497 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 14:49:35,121 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 14:49:43,961 - manageVM.server -
+                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
+2013-09-12 14:49:43,963 - manageVM.client -
+                            [INFO] - Bridge br01 with address 192.168.5.1 was successfully created
+2013-09-12 14:50:13,416 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: network 'br01' already exists with uuid fed048f5-7f19-13b9-b282-f52ce31e3dc0
+2013-09-12 14:50:13,420 - manageVM.client -
+                            [INFO] - Fault
+2013-09-12 14:50:13,420 - manageVM.client -
+                            [ERROR] - operation failed: network 'br01' already exists with uuid fed048f5-7f19-13b9-b282-f52ce31e3dc0
+2013-09-12 14:51:19,382 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'with_bridge' already exists with uuid 9d9735e7-c830-76f4-6e5f-4fbfb3a3bae2
+2013-09-12 14:51:19,383 - manageVM.client -
+                            [INFO] - Fault
+2013-09-12 14:51:19,383 - manageVM.client -
+                            [ERROR] - operation failed: domain 'with_bridge' already exists with uuid 9d9735e7-c830-76f4-6e5f-4fbfb3a3bae2
+2013-09-12 14:51:52,345 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 14:51:58,603 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-12 14:51:58,605 - manageVM.client -
+                            [INFO] - New VM newvm was successfully created
+2013-09-12 14:52:14,610 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 14:52:36,493 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-12 14:52:36,495 - manageVM.client -
+                            [INFO] - New VM newvm1 was successfully created
+2013-09-12 14:58:04,963 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-12 14:58:04,965 - manageVM.client -
+                            [INFO] - VM newvm1 was destroyed
+2013-09-12 14:58:09,747 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-12 14:58:09,750 - manageVM.client -
+                            [INFO] - VM newvm was destroyed
+2013-09-12 14:58:13,951 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Network not found: no network with matching name 'br01'
+2013-09-12 14:58:13,955 - manageVM.client -
+                            [INFO] - Fault
+2013-09-12 14:58:13,955 - manageVM.client -
+                            [ERROR] - Network not found: no network with matching name 'br01'
+2013-09-12 14:59:05,730 - manageVM.server -
+                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
+2013-09-12 14:59:05,732 - manageVM.client -
+                            [INFO] - Bridge br01 with address 192.168.7.1 was successfully created
+2013-09-12 14:59:53,045 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-12 14:59:53,047 - manageVM.client -
+                            [INFO] - New VM newvm1 was successfully created
+2013-09-12 15:01:27,074 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-12 15:01:27,075 - manageVM.client -
+                            [INFO] - New VM newvm2 was successfully created
+2013-09-12 15:01:40,016 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-12 15:01:40,019 - manageVM.client -
+                            [INFO] - VM newvm1 was destroyed
+2013-09-12 15:01:44,167 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-12 15:01:44,169 - manageVM.client -
+                            [INFO] - VM newvm2 was destroyed
+2013-09-12 15:02:21,980 - manageVM.server -
+                            [INFO] - Operation delBridge from host 127.0.0.1 completed.
+2013-09-12 15:02:21,982 - manageVM.client -
+                            [INFO] - Bridge %s was destroyed
+2013-09-12 15:26:41,180 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 15:27:13,586 - manageVM.server -
+                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
+2013-09-12 15:27:13,588 - manageVM.client -
+                            [INFO] - Bridge br01 with address 192.168.8.1 was successfully created
+2013-09-12 15:27:20,386 - manageVM.server -
+                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
+2013-09-12 15:27:20,388 - manageVM.client -
+                            [INFO] - Bridge br02 with address 192.168.9.1 was successfully created
+2013-09-12 15:27:34,836 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-12 15:27:34,838 - manageVM.client -
+                            [INFO] - New VM newvm1 was successfully created
+2013-09-12 15:27:47,861 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-12 15:27:47,863 - manageVM.client -
+                            [INFO] - New VM newvm2 was successfully created
+2013-09-12 15:29:16,331 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 15:30:15,665 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Attempt to delete not empty bridge
+2013-09-12 15:30:15,668 - manageVM.client -
+                            [INFO] - Fault
+2013-09-12 15:31:04,183 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 Attempt to delete not empty bridge
+2013-09-12 15:31:04,185 - manageVM.client -
+                            [INFO] - Fault
+2013-09-12 15:31:04,186 - manageVM.client -
+                            [ERROR] - Attempt to delete not empty bridge
+2013-09-12 16:20:31,024 - manageVM.server -
+                            [INFO] - Operation get_os_list from host 127.0.0.1 completed.
+2013-09-12 16:20:31,026 - manageVM.client -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-12 16:20:37,737 - manageVM.server -
+                            [INFO] - Operation get_vm_list from host 127.0.0.1 completed.
+2013-09-12 16:20:37,738 - manageVM.client -
+                            [INFO] - VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01, VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02, 
+2013-09-12 16:25:24,803 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 16:28:08,026 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 16:28:29,662 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-12 16:28:29,664 - manageVM.client -
+                            [INFO] - VM newvm1 was destroyed
+2013-09-12 16:29:08,636 - manageVM.server -
+                            [INFO] - Operation delBridge from host 127.0.0.1 completed.
+2013-09-12 16:29:08,637 - manageVM.client -
+                            [INFO] - Bridge br01 was destroyed
+2013-09-12 17:59:13,830 - manageVM.server -
+                            [INFO] - Operation delete from host 127.0.0.1 completed.
+2013-09-12 17:59:13,831 - manageVM.client -
+                            [INFO] - VM newvm2 was destroyed
+2013-09-12 17:59:31,124 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-12 18:36:44,454 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-12 18:36:44,456 - manageVM.client -
+                            [INFO] - New VM newvm2 was successfully created
+2013-09-12 18:36:52,891 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 list index out of range
+2013-09-12 18:36:52,893 - manageVM.client -
+                            [INFO] - Fault
+2013-09-12 18:36:52,893 - manageVM.client -
+                            [ERROR] - list index out of range
+2013-09-12 18:37:31,758 - manageVM.server -
+                            [INFO] - Operation createBridge from host 127.0.0.1 completed.
+2013-09-12 18:37:31,760 - manageVM.client -
+                            [INFO] - Bridge br01 with address 192.168.10.1 was successfully created
+2013-09-12 18:37:38,162 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 operation failed: domain 'newvm1' already exists with uuid be45d676-7d36-4094-49b6-99eb4f47b3ff
+2013-09-12 18:37:38,164 - manageVM.client -
+                            [INFO] - Fault
+2013-09-12 18:37:38,164 - manageVM.client -
+                            [ERROR] - operation failed: domain 'newvm1' already exists with uuid be45d676-7d36-4094-49b6-99eb4f47b3ff
+2013-09-12 18:37:54,933 - manageVM.server -
+                            [ERROR] - Error occured from host 127.0.0.1 (IntegrityError) (1062, "Duplicate entry 'newvm1' for key 'name'")
+2013-09-12 18:37:54,935 - manageVM.client -
+                            [INFO] - Fault
+2013-09-12 18:37:54,935 - manageVM.client -
+                            [ERROR] - (IntegrityError) (1062, "Duplicate entry 'newvm1' for key 'name'")
+2013-09-12 18:38:52,631 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-12 18:38:52,633 - manageVM.client -
+                            [INFO] - New VM newvm1 was successfully created
+2013-09-12 18:39:01,149 - manageVM.server -
+                            [INFO] - Operation create from host 127.0.0.1 completed.
+2013-09-12 18:39:01,151 - manageVM.client -
+                            [INFO] - New VM newvm3 was successfully created
+2013-09-16 12:24:14,371 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-18 18:09:50,870 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-18 18:38:17,447 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-18 18:38:27,864 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-18 18:46:50,951 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-18 18:48:08,216 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 12:14:49,115 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 12:26:50,649 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:26:50,650 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:28:24,618 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:28:24,618 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:30:24,875 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 12:32:25,122 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:32:25,123 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:32:25,124 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:34:01,099 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:34:01,100 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:34:01,102 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:34:09,297 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:50:16,843 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 12:50:24,852 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:50:24,853 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:50:24,854 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:50:24,855 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:06,420 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:06,421 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:06,421 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:06,422 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:10,269 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:10,270 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:10,271 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:10,272 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:55,340 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:55,341 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:55,341 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:51:55,342 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:52:19,594 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:52:19,595 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:52:19,596 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:52:19,596 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:52:59,262 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:52:59,263 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:52:59,264 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:52:59,265 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:08,144 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:08,145 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:08,145 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:08,146 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:19,836 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:19,837 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:19,838 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:19,839 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:31,142 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:53:48,678 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:56:56,884 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 12:57:07,532 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:07,533 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:07,534 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:07,535 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:07,536 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:07,547 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:38,611 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:38,612 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:38,613 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:38,613 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:38,614 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:38,625 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:52,159 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:52,160 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:52,161 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:52,162 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:52,163 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:57:52,174 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:08,059 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:08,060 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:08,061 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:08,062 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:08,062 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:08,063 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:18,750 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:18,751 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:18,752 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:18,753 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:18,754 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:58:18,754 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:59:33,496 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:59:33,497 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:59:33,498 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:59:33,499 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:59:33,500 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 12:59:33,500 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:09,461 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:09,462 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:09,463 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:09,463 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:09,464 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:09,465 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:56,931 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:56,932 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:56,933 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:56,934 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:56,935 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:00:56,936 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:02:22,781 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:02:22,783 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:02:22,784 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:02:22,795 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:02:22,796 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:02:22,797 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:03:45,061 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:03:45,066 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:03:45,069 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:03:45,073 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:03:45,076 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:03:45,088 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:12:11,320 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:12:11,324 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:12:11,328 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:12:11,331 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:12:11,334 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:12:11,335 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:13:54,757 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:13:54,761 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:13:54,765 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:13:54,768 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:13:54,772 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:13:54,774 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:20:46,091 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:20:46,095 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:20:46,098 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:20:46,099 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:20:46,101 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:20:46,103 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:22:23,458 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:22:23,462 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:22:23,465 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:22:23,467 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:22:23,469 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:22:23,471 - manageVM.compute -
+                            [ERROR] - string indices must be integers, not str
+2013-09-19 13:23:48,330 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:23:48,335 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:23:48,340 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:23:48,344 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:23:48,348 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:23:48,364 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:25:03,955 - manageVM.compute -
+                            [ERROR] - 'function' object has no attribute '_Worker__name'
+2013-09-19 13:25:03,960 - manageVM.compute -
+                            [ERROR] - 'function' object has no attribute '_Worker__name'
+2013-09-19 13:25:03,964 - manageVM.compute -
+                            [ERROR] - 'function' object has no attribute '_Worker__name'
+2013-09-19 13:25:03,969 - manageVM.compute -
+                            [ERROR] - 'function' object has no attribute '_Worker__name'
+2013-09-19 13:25:03,973 - manageVM.compute -
+                            [ERROR] - 'function' object has no attribute '_Worker__name'
+2013-09-19 13:25:03,977 - manageVM.compute -
+                            [ERROR] - 'function' object has no attribute '_Worker__name'
+2013-09-19 13:25:37,967 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:25:37,978 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:25:37,983 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:25:37,987 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:25:37,991 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:25:38,011 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:26:31,251 - manageVM.compute -
+                            [ERROR] - cannot concatenate 'str' and 'type' objects
+2013-09-19 13:26:31,257 - manageVM.compute -
+                            [ERROR] - cannot concatenate 'str' and 'type' objects
+2013-09-19 13:26:31,261 - manageVM.compute -
+                            [ERROR] - cannot concatenate 'str' and 'type' objects
+2013-09-19 13:26:31,266 - manageVM.compute -
+                            [ERROR] - cannot concatenate 'str' and 'type' objects
+2013-09-19 13:26:31,270 - manageVM.compute -
+                            [ERROR] - cannot concatenate 'str' and 'type' objects
+2013-09-19 13:26:31,287 - manageVM.compute -
+                            [ERROR] - cannot concatenate 'str' and 'type' objects
+2013-09-19 13:26:52,675 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:26:52,679 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:26:52,684 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:26:52,690 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:26:52,695 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:26:52,701 - manageVM.compute -
+                            [ERROR] - get_vm_list() argument after ** must be a mapping, not str
+2013-09-19 13:27:14,332 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:27:14,387 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:27:14,451 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x36af190> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 13:27:14,524 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x36af950> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 13:27:14,604 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:27:14,720 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:27:49,823 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:27:49,890 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:27:49,959 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x3afd190> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 13:27:50,042 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x3afd950> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 13:27:50,094 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:27:50,201 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:29:12,273 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:29:12,326 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:29:12,370 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x3b92190> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 13:29:12,448 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x3b92950> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 13:29:12,521 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:29:12,617 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:30:30,049 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:31:24,977 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:31:56,369 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:33:39,929 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x37aef90> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 13:35:28,521 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:35:28,541 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x342b1d0> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 13:35:28,554 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:35:28,567 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:35:28,601 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:35:28,630 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:36:05,049 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:37:27,074 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 13:37:55,012 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:37:55,034 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x32ae290> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 13:37:55,047 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:37:55,061 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:37:55,073 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:37:55,108 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:38:06,017 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:39:33,366 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:39:33,389 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:39:33,414 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:39:33,438 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:39:33,473 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:39:33,487 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:39:38,025 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:40:11,577 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:45:41,939 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 13:46:00,474 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:00,498 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:00,522 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:00,547 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:00,581 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:00,595 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:19,000 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:19,022 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:19,046 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:19,061 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:19,072 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:19,108 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:46:19,114 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:46:19,120 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:53:12,807 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:53:12,832 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:53:12,856 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:53:12,868 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:53:12,902 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:53:12,930 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:53:12,944 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:53:12,967 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:53:22,106 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 13:58:28,561 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:28,586 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:28,608 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:28,633 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:28,668 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:28,683 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:28,689 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:58:28,713 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:58:35,962 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 13:58:54,128 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:54,152 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:54,177 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:54,201 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:54,237 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:54,265 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 13:58:54,277 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:58:54,302 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 13:59:05,875 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:15,574 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:16,814 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:17,459 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 14:59:24,320 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:24,344 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:24,367 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:24,386 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:24,399 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:24,420 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:24,432 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:24,445 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:24,457 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:24,469 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:24,482 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:36,263 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:36,279 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:36,296 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:36,322 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:36,346 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:36,376 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 14:59:36,399 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:36,414 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:36,426 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:36,449 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 14:59:36,464 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:07,254 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:07,276 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:07,302 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:07,327 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:07,347 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:07,374 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:07,395 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:07,408 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:07,420 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:07,443 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:07,455 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:40,019 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:40,042 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:40,068 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:40,093 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:40,119 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:40,148 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:01:40,170 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:40,183 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:40,196 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:40,219 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:01:40,233 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:02:59,334 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:02:59,353 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:02:59,375 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:02:59,402 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:02:59,427 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:02:59,447 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:02:59,452 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:02:59,474 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:02:59,486 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:02:59,499 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:02:59,523 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:03:51,583 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:03:51,605 - manageVM.compute -
+                            [ERROR] - Parent instance <VM at 0x3388210> is not bound to a Session; lazy load operation of attribute 'os' cannot proceed
+2013-09-19 15:03:51,630 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:03:51,655 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:03:51,682 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:03:51,710 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:03:51,732 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:03:51,744 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:03:51,756 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:03:51,781 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:03:51,794 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:04:59,572 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:04:59,585 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:04:59,604 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:04:59,629 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:04:59,655 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:04:59,693 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:04:59,706 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:04:59,719 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:04:59,742 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:04:59,755 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:04:59,769 - manageVM.compute -
+                            [INFO] - OS: cirros, ID: 1, 
+2013-09-19 15:05:51,801 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:51,818 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:51,840 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:51,864 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:51,889 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:51,909 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:51,910 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:05:51,911 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:05:51,912 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:05:51,912 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:05:51,913 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:05:55,022 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:55,038 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:55,057 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:55,092 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:55,117 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:55,147 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:05:55,149 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:05:55,161 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:05:55,164 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:05:55,166 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:05:55,178 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:06,025 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:06,049 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:06,073 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:06,093 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:06,118 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:06,145 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:06,159 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:06,161 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:06,164 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:06,178 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:06,180 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:56,003 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:56,025 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:56,050 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:56,074 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:56,098 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:56,124 - manageVM.compute -
+                            [INFO] - VM newvm2, state: SHUTOFF, OS: + cirros, Bridge: br02
+VM newvm1, state: SHUTOFF, OS: + cirros, Bridge: br01
+VM newvm3, state: SHUTOFF, OS: + cirros, Bridge: br01
+
+2013-09-19 15:06:56,137 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:56,139 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:56,141 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:56,153 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:06:56,155 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,138 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,140 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,142 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,145 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,146 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,147 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,159 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,161 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,163 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,175 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:07:37,178 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:08:53,370 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:09:40,298 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:10:37,018 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:05,090 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:11,562 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:14,426 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:17,768 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:20,087 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:22,359 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:24,647 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:26,903 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:29,134 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:11:31,319 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,420 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,423 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,425 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,427 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,429 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,441 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,443 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,446 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,458 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,460 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:13:13,462 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,828 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,831 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,833 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,836 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,837 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,848 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,850 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,852 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,864 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,867 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:14:05,869 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,780 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,781 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,783 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,784 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,784 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,786 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,787 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,788 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,789 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,790 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:25,791 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:27,992 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:27,994 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:27,997 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:27,999 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:28,001 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:28,002 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:28,003 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:28,004 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:28,005 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:28,006 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:28,006 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,855 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,858 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,861 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,862 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,863 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,865 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,865 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,866 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,873 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,874 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:29,876 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,272 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,275 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,277 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,280 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,281 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,282 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,294 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,296 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,298 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,310 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:42,312 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,960 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,963 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,965 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,967 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,969 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,980 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,981 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,984 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,996 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:15:59,998 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:00,000 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,311 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,314 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,316 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,319 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,321 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,333 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,335 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,337 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,350 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,352 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:16:25,354 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,354 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,356 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,359 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,361 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,364 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,366 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,378 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,380 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,382 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,395 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:07,397 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,691 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,694 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,696 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,698 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,701 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,712 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,713 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,715 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,727 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,729 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:17:45,731 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,760 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,763 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,765 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,768 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,770 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,783 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,785 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,787 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,799 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,802 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:18:18,804 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,079 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,081 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,084 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,085 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,086 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,098 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,101 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,103 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,115 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,117 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:20:04,120 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,544 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,549 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,553 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,570 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,580 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,585 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,588 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,603 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,608 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,615 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:27:30,634 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:27,781 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:39:46,539 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,540 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,544 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,547 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,550 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,553 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,557 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,559 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,561 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,563 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:46,565 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:39:58,845 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:41:19,358 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:42:21,611 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:46:13,497 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:46:15,814 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:47:20,006 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:48:35,390 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:49:25,350 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:49:34,787 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:49:37,401 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:50:40,249 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:50:43,734 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:50:56,390 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:51:27,567 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:52:43,718 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:56:01,091 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 15:56:46,510 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 15:57:16,555 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
+2013-09-19 16:02:27,062 - manageVM -
+                            [ERROR] - Stop serving due to keyboard interrupt
+2013-09-19 16:02:47,499 - manageVM.compute -
+                            [INFO] - !!!!!!RESULT!!!!!!
